@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ismetles", "ismetles\ismetles.csproj", "{D3C45D6A-8B14-4FB5-8419-E5DA335FEA61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3C45D6A-8B14-4FB5-8419-E5DA335FEA61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3C45D6A-8B14-4FB5-8419-E5DA335FEA61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3C45D6A-8B14-4FB5-8419-E5DA335FEA61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3C45D6A-8B14-4FB5-8419-E5DA335FEA61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97FE2CFD-24B0-4F6D-963B-464698A87D21}
+	EndGlobalSection
+EndGlobal

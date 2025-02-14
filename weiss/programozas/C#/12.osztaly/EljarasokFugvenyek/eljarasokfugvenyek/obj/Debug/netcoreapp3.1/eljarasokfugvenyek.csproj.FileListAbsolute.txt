@@ -1,0 +1,11 @@
+D:\iskola\programozas\c#\12.osztaly\EljarasokFugvenyek\eljarasokfugvenyek\bin\Debug\netcoreapp3.1\eljarasokfugvenyek.exe
+D:\iskola\programozas\c#\12.osztaly\EljarasokFugvenyek\eljarasokfugvenyek\bin\Debug\netcoreapp3.1\eljarasokfugvenyek.deps.json
+D:\iskola\programozas\c#\12.osztaly\EljarasokFugvenyek\eljarasokfugvenyek\bin\Debug\netcoreapp3.1\eljarasokfugvenyek.runtimeconfig.json
+D:\iskola\programozas\c#\12.osztaly\EljarasokFugvenyek\eljarasokfugvenyek\bin\Debug\netcoreapp3.1\eljarasokfugvenyek.runtimeconfig.dev.json
+D:\iskola\programozas\c#\12.osztaly\EljarasokFugvenyek\eljarasokfugvenyek\bin\Debug\netcoreapp3.1\eljarasokfugvenyek.dll
+D:\iskola\programozas\c#\12.osztaly\EljarasokFugvenyek\eljarasokfugvenyek\bin\Debug\netcoreapp3.1\eljarasokfugvenyek.pdb
+D:\iskola\programozas\c#\12.osztaly\EljarasokFugvenyek\eljarasokfugvenyek\obj\Debug\netcoreapp3.1\eljarasokfugvenyek.csprojAssemblyReference.cache
+D:\iskola\programozas\c#\12.osztaly\EljarasokFugvenyek\eljarasokfugvenyek\obj\Debug\netcoreapp3.1\eljarasokfugvenyek.AssemblyInfoInputs.cache
+D:\iskola\programozas\c#\12.osztaly\EljarasokFugvenyek\eljarasokfugvenyek\obj\Debug\netcoreapp3.1\eljarasokfugvenyek.AssemblyInfo.cs
+D:\iskola\programozas\c#\12.osztaly\EljarasokFugvenyek\eljarasokfugvenyek\obj\Debug\netcoreapp3.1\eljarasokfugvenyek.dll
+D:\iskola\programozas\c#\12.osztaly\EljarasokFugvenyek\eljarasokfugvenyek\obj\Debug\netcoreapp3.1\eljarasokfugvenyek.pdb
