@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<title>Robohal nyelviskola</title>
+</head>
+<body>
+    <div id="teteje">
+        <div class="vizszintes_elvalaszto"></div>
+    </div>
+    <div id="kozepe">
+        <div class="vizszintes_elvalaszto"></div>
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Főoldal</a></li>
+                <li><a href="kurzusok.html">Kurzusok</a></li>
+                <li><a href="tanaraink.html">Tanáraink</a></li>
+                <li class="aktiv"><a href="kapcsolat.html">Kapcsolat</a></li>
+            </ul>
+        </div>
+        <div id="tartalom">
+            <h1>Kapcsolat</h1>
+
+            <form>
+                <fieldset>
+                    <p><div>Név:</div><div><input type="text" name="nev" value=""></div></p>
+                    <p><div>E-mail cím:</div><div><input type="text" name="email" value=""></div></p>
+                    <p><div>Nyelv, ami érdekli:</div><div><select name="nyelv" multiple>
+                        <option value="angol" >angol</option>
+                        <option value="nemet" >német</option>
+                        <option value="spanyol" >spanyol</option>
+                        <option value="francia" >francia</option>
+                        <option value="gorog" >görög</option>
+                        <option value="arab" >arab</option>
+                        <option value="svéd" >svéd</option>
+                        <option value="kínai" >kínai</option>
+                        <option value="egyéb" >egyéb...</option>
+                    </select></div></p>
+                    <p><div>Üzenet:</div><div><textarea name="uzenet" value="" rows="4" cols="40" ></textarea></div></p>
+                    <p><div></div><div><input type="submit" name="ok" value="küldés"><input type="reset" name="ok" value="törlés"></div></p>
+                </fieldset>
+            </form>
+
+
+        </div>
+    </div>
+    <div id="alja">
+        <div class="vizszintes_elvalaszto"></div>
+        <p>&copy;Robohal Kft. Cím: 1249 Budapest, Petőfi sétány 95. Telefon: (06-1) 987-6543. Fax: (06-1) 987-5432.</p>
+    </div>
+</body>
+</html>

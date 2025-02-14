@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<title>Robohal nyelviskola</title>
+</head>
+<body>
+    <div id="teteje">
+        <div class="vizszintes_elvalaszto"></div>
+    </div>
+    <div id="kozepe">
+        <div class="vizszintes_elvalaszto"></div>
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Főoldal</a></li>
+                <li><a href="kurzusok.html">Kurzusok</a></li>
+                <li class="aktiv"><a href="tanaraink.html">Tanáraink</a></li>
+                <li><a href="kapcsolat.html">Kapcsolat</a></li>
+            </ul>
+        </div>
+        <div id="tartalom">
+            <h1>Tanáraink listája</h1>
+            <p>
+
+                Anna Krotzmann
+                    angol, kínai
+                Elvira Sanchez
+                    angol, német
+                Kovács János
+                    spanyol
+                Péter Ádám
+                    svéd, arab
+                Zsombor Csaba
+                    német, görög 
+
+            </p>
+        </div>
+    </div>
+    <div id="alja">
+        <div class="vizszintes_elvalaszto"></div>
+        <p>&copy;Robohal Kft. Cím: 1249 Budapest, Petőfi sétány 95. Telefon: (06-1) 987-6543. Fax: (06-1) 987-5432.</p>
+    </div>
+</body>

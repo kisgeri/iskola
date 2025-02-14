@@ -1,0 +1,86 @@
+body{
+    font-family: monospace;
+    font-size: 18px;
+    background-color: #f9f6ea;
+}
+h1{
+    font-size: 1.8em;
+    margin: 1em 0;
+}
+h2{
+    font-size: 1.4em;
+    margin: 0.5em 0;
+}
+#teteje, #kozepe, #alja{
+    width: 960px;
+    margin: 0 auto;
+}
+#teteje{
+    background: #f9f6ea url('cim.jpg') no-repeat center center;
+    height: 80px;
+}
+.vizszintes_elvalaszto{
+    height: 10px;
+    width: 100%;
+    background: #f9f6ea url('vonal_vizszintes.gif') repeat-x left top;
+}
+#menu{
+    width: 160px;
+    float:left;
+}
+#menu ul{
+    list-style-type: none;
+}
+#menu li{
+    margin: 3px 0;
+}
+#menu .aktiv{
+    list-style-type: square;
+    font-weight: bold;
+}
+a, a:link, a:visited{
+    color: #006;
+    text-decoration: none;
+    padding: 0;
+}
+a:hover{
+    border-bottom: 3px dashed #006;
+}
+#tartalom{
+    background-image: url('vonal_fuggoleges.gif');
+    background-repeat: repeat-y;
+    width:750px;
+    padding-left: 50px;
+    float: right;
+}
+table{
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+th, td{
+    padding: 3px 8px;
+    border: 2px dotted black;
+}
+form{
+    margin: 10px;
+}
+form div{
+    float: left;
+    width: 300px;
+    margin: 5px;
+}
+#alja{
+    clear: both;
+    font-size: 0.8em;
+    text-align: center;
+}
+input[type=text]{
+    width: 280px;
+}
+input[type=submit]{
+    background-color: #ccc;
+}
+
