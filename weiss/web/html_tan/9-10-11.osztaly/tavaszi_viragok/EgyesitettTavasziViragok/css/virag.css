@@ -1,0 +1,59 @@
+html {background-color:rgb(47, 209, 182);}
+
+body {
+    margin-top:30px;
+    margin-bottom:20px;
+    margin-left:auto;		
+    margin-right:auto;	
+    font-size:120%;
+    width:90%;
+    font-family: Century Gothic, Rockwell, Comic Sans MS;
+    background-color:whitesmoke;
+    border:1px solid white;
+    box-shadow:5px 5px 20px white;
+}
+h1 {
+	color:rgb(235, 235, 235);
+    border: 25px ridge ;
+    border-color: rgb(47, 209, 182);
+	background-color:rgb(47, 209, 182);
+	padding:30px;
+	margin:0;
+    text-align:center ; 
+    text-shadow:2px 2px 20px whitesmoke;
+    box-shadow:5px 5px 20px rgb(71, 235, 207);
+        }
+h2 {
+    padding:10px;
+    color:rgb(47, 209, 182);
+    text-shadow:3px 3px 5px rgb(71, 235, 207);
+    }
+table,th,td {
+    border: 3px double rgb(47, 209, 182);
+    border-radius: 5%;
+    box-shadow:5px 5px 10px rgb(71, 235, 207);
+    }
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+img {
+	border:12px double rgb(47, 209, 182);
+	border-radius:60px;
+    margin-right:10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    box-shadow:5px 5px 50px rgb(71, 235, 207);
+}
+
+.menu a {
+    border:6px dotted rgb(47, 209, 182); 
+    color:rgb(47, 209, 182);
+
+}
+
+.menu a:hover {
+    text-shadow:1px 1px 10px rgb(71, 235, 207);
+}

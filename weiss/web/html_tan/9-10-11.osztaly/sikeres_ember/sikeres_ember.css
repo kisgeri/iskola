@@ -1,0 +1,34 @@
+
+div.sikertelen{
+    background-color: red;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 200px;
+    text-align: left;
+    border-radius: 8px;
+    float:left;
+    list-style-image: url('icon_bad.png');
+    border-width: 50px;
+    border-color: royalblue;
+}
+
+
+div.sikeres{
+    background-color: greenyellow;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 200px;
+    text-align: left;
+    border-radius: 8px;
+    float:right;
+    list-style-image: url('icon_good.png');
+    border-width: 80px;
+    border-color: green;
+}
+.nyil{
+    width: 300px;
+    text-align: center;
+    float:none;
+    margin-top: 150px;
+}
+
