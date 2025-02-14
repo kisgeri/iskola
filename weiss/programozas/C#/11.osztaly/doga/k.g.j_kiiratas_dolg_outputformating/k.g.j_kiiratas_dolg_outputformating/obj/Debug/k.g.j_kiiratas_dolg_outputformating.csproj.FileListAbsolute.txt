@@ -1,0 +1,13 @@
+Z:\programozas\k.g.j_kiiratas_dolg_outputformating\k.g.j_kiiratas_dolg_outputformating\bin\Debug\k.g.j_kiiratas_dolg_outputformating.exe.config
+Z:\programozas\k.g.j_kiiratas_dolg_outputformating\k.g.j_kiiratas_dolg_outputformating\bin\Debug\k.g.j_kiiratas_dolg_outputformating.exe
+Z:\programozas\k.g.j_kiiratas_dolg_outputformating\k.g.j_kiiratas_dolg_outputformating\bin\Debug\k.g.j_kiiratas_dolg_outputformating.pdb
+Z:\programozas\k.g.j_kiiratas_dolg_outputformating\k.g.j_kiiratas_dolg_outputformating\obj\Debug\k.g.j_kiiratas_dolg_outputformating.csproj.AssemblyReference.cache
+Z:\programozas\k.g.j_kiiratas_dolg_outputformating\k.g.j_kiiratas_dolg_outputformating\obj\Debug\k.g.j_kiiratas_dolg_outputformating.csproj.CoreCompileInputs.cache
+Z:\programozas\k.g.j_kiiratas_dolg_outputformating\k.g.j_kiiratas_dolg_outputformating\obj\Debug\k.g.j_kiiratas_dolg_outputformating.exe
+Z:\programozas\k.g.j_kiiratas_dolg_outputformating\k.g.j_kiiratas_dolg_outputformating\obj\Debug\k.g.j_kiiratas_dolg_outputformating.pdb
+\\dc1\tanulok\Kis.Gergely\programozas\k.g.j_kiiratas_dolg_outputformating\k.g.j_kiiratas_dolg_outputformating\bin\Debug\k.g.j_kiiratas_dolg_outputformating.exe.config
+\\dc1\tanulok\Kis.Gergely\programozas\k.g.j_kiiratas_dolg_outputformating\k.g.j_kiiratas_dolg_outputformating\bin\Debug\k.g.j_kiiratas_dolg_outputformating.exe
+\\dc1\tanulok\Kis.Gergely\programozas\k.g.j_kiiratas_dolg_outputformating\k.g.j_kiiratas_dolg_outputformating\bin\Debug\k.g.j_kiiratas_dolg_outputformating.pdb
+\\dc1\tanulok\Kis.Gergely\programozas\k.g.j_kiiratas_dolg_outputformating\k.g.j_kiiratas_dolg_outputformating\obj\Debug\k.g.j_kiiratas_dolg_outputformating.csprojAssemblyReference.cache
+\\dc1\tanulok\Kis.Gergely\programozas\k.g.j_kiiratas_dolg_outputformating\k.g.j_kiiratas_dolg_outputformating\obj\Debug\k.g.j_kiiratas_dolg_outputformating.exe
+\\dc1\tanulok\Kis.Gergely\programozas\k.g.j_kiiratas_dolg_outputformating\k.g.j_kiiratas_dolg_outputformating\obj\Debug\k.g.j_kiiratas_dolg_outputformating.pdb

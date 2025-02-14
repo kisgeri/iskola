@@ -1,0 +1,14 @@
+D:\iskola\programozas\c#\ciklus_ciklusba\ciklus_ciklusba\bin\Debug\ciklus_ciklusba.exe.config
+D:\iskola\programozas\c#\ciklus_ciklusba\ciklus_ciklusba\bin\Debug\ciklus_ciklusba.exe
+D:\iskola\programozas\c#\ciklus_ciklusba\ciklus_ciklusba\bin\Debug\ciklus_ciklusba.pdb
+D:\iskola\programozas\c#\ciklus_ciklusba\ciklus_ciklusba\obj\Debug\ciklus_ciklusba.csproj.AssemblyReference.cache
+D:\iskola\programozas\c#\ciklus_ciklusba\ciklus_ciklusba\obj\Debug\ciklus_ciklusba.csproj.CoreCompileInputs.cache
+D:\iskola\programozas\c#\ciklus_ciklusba\ciklus_ciklusba\obj\Debug\ciklus_ciklusba.exe
+D:\iskola\programozas\c#\ciklus_ciklusba\ciklus_ciklusba\obj\Debug\ciklus_ciklusba.pdb
+G:\iskola\programozas\c#\ciklus_ciklusba\ciklus_ciklusba\bin\Debug\ciklus_ciklusba.exe.config
+G:\iskola\programozas\c#\ciklus_ciklusba\ciklus_ciklusba\bin\Debug\ciklus_ciklusba.exe
+G:\iskola\programozas\c#\ciklus_ciklusba\ciklus_ciklusba\bin\Debug\ciklus_ciklusba.pdb
+G:\iskola\programozas\c#\ciklus_ciklusba\ciklus_ciklusba\obj\Debug\ciklus_ciklusba.csproj.AssemblyReference.cache
+G:\iskola\programozas\c#\ciklus_ciklusba\ciklus_ciklusba\obj\Debug\ciklus_ciklusba.csproj.CoreCompileInputs.cache
+G:\iskola\programozas\c#\ciklus_ciklusba\ciklus_ciklusba\obj\Debug\ciklus_ciklusba.exe
+G:\iskola\programozas\c#\ciklus_ciklusba\ciklus_ciklusba\obj\Debug\ciklus_ciklusba.pdb

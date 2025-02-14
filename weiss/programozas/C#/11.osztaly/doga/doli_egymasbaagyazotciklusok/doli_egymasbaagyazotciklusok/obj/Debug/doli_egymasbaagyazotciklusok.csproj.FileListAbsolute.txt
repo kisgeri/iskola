@@ -1,0 +1,7 @@
+Z:\programozas\doga\doli_egymasbaagyazotciklusok\doli_egymasbaagyazotciklusok\bin\Debug\doli_egymasbaagyazotciklusok.exe.config
+Z:\programozas\doga\doli_egymasbaagyazotciklusok\doli_egymasbaagyazotciklusok\bin\Debug\doli_egymasbaagyazotciklusok.exe
+Z:\programozas\doga\doli_egymasbaagyazotciklusok\doli_egymasbaagyazotciklusok\bin\Debug\doli_egymasbaagyazotciklusok.pdb
+Z:\programozas\doga\doli_egymasbaagyazotciklusok\doli_egymasbaagyazotciklusok\obj\Debug\doli_egymasbaagyazotciklusok.csproj.AssemblyReference.cache
+Z:\programozas\doga\doli_egymasbaagyazotciklusok\doli_egymasbaagyazotciklusok\obj\Debug\doli_egymasbaagyazotciklusok.csproj.CoreCompileInputs.cache
+Z:\programozas\doga\doli_egymasbaagyazotciklusok\doli_egymasbaagyazotciklusok\obj\Debug\doli_egymasbaagyazotciklusok.exe
+Z:\programozas\doga\doli_egymasbaagyazotciklusok\doli_egymasbaagyazotciklusok\obj\Debug\doli_egymasbaagyazotciklusok.pdb

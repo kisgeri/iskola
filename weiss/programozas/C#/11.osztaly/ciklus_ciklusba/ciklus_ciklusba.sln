@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ciklus_ciklusba", "ciklus_ciklusba\ciklus_ciklusba.csproj", "{77DBD8D8-2792-4047-9D5D-F59A0BDE50FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77DBD8D8-2792-4047-9D5D-F59A0BDE50FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77DBD8D8-2792-4047-9D5D-F59A0BDE50FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77DBD8D8-2792-4047-9D5D-F59A0BDE50FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77DBD8D8-2792-4047-9D5D-F59A0BDE50FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A28FA476-54C4-446B-882A-575AC772C713}
+	EndGlobalSection
+EndGlobal

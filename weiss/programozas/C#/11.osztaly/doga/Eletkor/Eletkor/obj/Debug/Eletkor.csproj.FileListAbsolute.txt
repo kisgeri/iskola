@@ -1,0 +1,7 @@
+Z:\programozas\Eletkor\Eletkor\bin\Debug\Eletkor.exe.config
+Z:\programozas\Eletkor\Eletkor\bin\Debug\Eletkor.exe
+Z:\programozas\Eletkor\Eletkor\bin\Debug\Eletkor.pdb
+Z:\programozas\Eletkor\Eletkor\obj\Debug\Eletkor.csproj.AssemblyReference.cache
+Z:\programozas\Eletkor\Eletkor\obj\Debug\Eletkor.csproj.CoreCompileInputs.cache
+Z:\programozas\Eletkor\Eletkor\obj\Debug\Eletkor.exe
+Z:\programozas\Eletkor\Eletkor\obj\Debug\Eletkor.pdb

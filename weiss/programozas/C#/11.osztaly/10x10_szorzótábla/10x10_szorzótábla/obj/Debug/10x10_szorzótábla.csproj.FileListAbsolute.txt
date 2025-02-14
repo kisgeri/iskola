@@ -1,0 +1,13 @@
+Z:\programozas\10x10_szorzótábla\10x10_szorzótábla\bin\Debug\10x10_szorzótábla.exe.config
+Z:\programozas\10x10_szorzótábla\10x10_szorzótábla\bin\Debug\10x10_szorzótábla.exe
+Z:\programozas\10x10_szorzótábla\10x10_szorzótábla\bin\Debug\10x10_szorzótábla.pdb
+Z:\programozas\10x10_szorzótábla\10x10_szorzótábla\obj\Debug\10x10_szorzótábla.csproj.AssemblyReference.cache
+Z:\programozas\10x10_szorzótábla\10x10_szorzótábla\obj\Debug\10x10_szorzótábla.csproj.CoreCompileInputs.cache
+Z:\programozas\10x10_szorzótábla\10x10_szorzótábla\obj\Debug\10x10_szorzótábla.exe
+Z:\programozas\10x10_szorzótábla\10x10_szorzótábla\obj\Debug\10x10_szorzótábla.pdb
+D:\iskola\programozas\c#\11.osztaly\10x10_szorzótábla\10x10_szorzótábla\bin\Debug\10x10_szorzótábla.exe.config
+D:\iskola\programozas\c#\11.osztaly\10x10_szorzótábla\10x10_szorzótábla\bin\Debug\10x10_szorzótábla.exe
+D:\iskola\programozas\c#\11.osztaly\10x10_szorzótábla\10x10_szorzótábla\bin\Debug\10x10_szorzótábla.pdb
+D:\iskola\programozas\c#\11.osztaly\10x10_szorzótábla\10x10_szorzótábla\obj\Debug\10x10_szorzótábla.exe
+D:\iskola\programozas\c#\11.osztaly\10x10_szorzótábla\10x10_szorzótábla\obj\Debug\10x10_szorzótábla.pdb
+D:\iskola\programozas\c#\11.osztaly\10x10_szorzótábla\10x10_szorzótábla\obj\Debug\10x10_szorzótábla.csprojAssemblyReference.cache
