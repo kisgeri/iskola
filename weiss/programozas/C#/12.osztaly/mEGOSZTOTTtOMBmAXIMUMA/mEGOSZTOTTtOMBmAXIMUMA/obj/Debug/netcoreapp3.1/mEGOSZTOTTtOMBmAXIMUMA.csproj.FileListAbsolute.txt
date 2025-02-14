@@ -1,0 +1,11 @@
+D:\iskola\programozas\c#\12.osztaly\mEGOSZTOTTtOMBmAXIMUMA\mEGOSZTOTTtOMBmAXIMUMA\bin\Debug\netcoreapp3.1\mEGOSZTOTTtOMBmAXIMUMA.exe
+D:\iskola\programozas\c#\12.osztaly\mEGOSZTOTTtOMBmAXIMUMA\mEGOSZTOTTtOMBmAXIMUMA\bin\Debug\netcoreapp3.1\mEGOSZTOTTtOMBmAXIMUMA.deps.json
+D:\iskola\programozas\c#\12.osztaly\mEGOSZTOTTtOMBmAXIMUMA\mEGOSZTOTTtOMBmAXIMUMA\bin\Debug\netcoreapp3.1\mEGOSZTOTTtOMBmAXIMUMA.runtimeconfig.json
+D:\iskola\programozas\c#\12.osztaly\mEGOSZTOTTtOMBmAXIMUMA\mEGOSZTOTTtOMBmAXIMUMA\bin\Debug\netcoreapp3.1\mEGOSZTOTTtOMBmAXIMUMA.runtimeconfig.dev.json
+D:\iskola\programozas\c#\12.osztaly\mEGOSZTOTTtOMBmAXIMUMA\mEGOSZTOTTtOMBmAXIMUMA\bin\Debug\netcoreapp3.1\mEGOSZTOTTtOMBmAXIMUMA.dll
+D:\iskola\programozas\c#\12.osztaly\mEGOSZTOTTtOMBmAXIMUMA\mEGOSZTOTTtOMBmAXIMUMA\bin\Debug\netcoreapp3.1\mEGOSZTOTTtOMBmAXIMUMA.pdb
+D:\iskola\programozas\c#\12.osztaly\mEGOSZTOTTtOMBmAXIMUMA\mEGOSZTOTTtOMBmAXIMUMA\obj\Debug\netcoreapp3.1\mEGOSZTOTTtOMBmAXIMUMA.csprojAssemblyReference.cache
+D:\iskola\programozas\c#\12.osztaly\mEGOSZTOTTtOMBmAXIMUMA\mEGOSZTOTTtOMBmAXIMUMA\obj\Debug\netcoreapp3.1\mEGOSZTOTTtOMBmAXIMUMA.AssemblyInfoInputs.cache
+D:\iskola\programozas\c#\12.osztaly\mEGOSZTOTTtOMBmAXIMUMA\mEGOSZTOTTtOMBmAXIMUMA\obj\Debug\netcoreapp3.1\mEGOSZTOTTtOMBmAXIMUMA.AssemblyInfo.cs
+D:\iskola\programozas\c#\12.osztaly\mEGOSZTOTTtOMBmAXIMUMA\mEGOSZTOTTtOMBmAXIMUMA\obj\Debug\netcoreapp3.1\mEGOSZTOTTtOMBmAXIMUMA.dll
+D:\iskola\programozas\c#\12.osztaly\mEGOSZTOTTtOMBmAXIMUMA\mEGOSZTOTTtOMBmAXIMUMA\obj\Debug\netcoreapp3.1\mEGOSZTOTTtOMBmAXIMUMA.pdb

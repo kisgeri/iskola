@@ -1,0 +1,11 @@
+D:\iskola\programozas\c#\12.osztaly\ld\ld\bin\Debug\netcoreapp3.1\ld.exe
+D:\iskola\programozas\c#\12.osztaly\ld\ld\bin\Debug\netcoreapp3.1\ld.deps.json
+D:\iskola\programozas\c#\12.osztaly\ld\ld\bin\Debug\netcoreapp3.1\ld.runtimeconfig.json
+D:\iskola\programozas\c#\12.osztaly\ld\ld\bin\Debug\netcoreapp3.1\ld.runtimeconfig.dev.json
+D:\iskola\programozas\c#\12.osztaly\ld\ld\bin\Debug\netcoreapp3.1\ld.dll
+D:\iskola\programozas\c#\12.osztaly\ld\ld\bin\Debug\netcoreapp3.1\ld.pdb
+D:\iskola\programozas\c#\12.osztaly\ld\ld\obj\Debug\netcoreapp3.1\ld.csprojAssemblyReference.cache
+D:\iskola\programozas\c#\12.osztaly\ld\ld\obj\Debug\netcoreapp3.1\ld.AssemblyInfoInputs.cache
+D:\iskola\programozas\c#\12.osztaly\ld\ld\obj\Debug\netcoreapp3.1\ld.AssemblyInfo.cs
+D:\iskola\programozas\c#\12.osztaly\ld\ld\obj\Debug\netcoreapp3.1\ld.dll
+D:\iskola\programozas\c#\12.osztaly\ld\ld\obj\Debug\netcoreapp3.1\ld.pdb

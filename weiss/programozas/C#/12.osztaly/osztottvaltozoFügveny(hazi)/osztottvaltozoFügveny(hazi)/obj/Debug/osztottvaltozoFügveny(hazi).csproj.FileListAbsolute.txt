@@ -1,0 +1,7 @@
+F:\iskola\programozas\c#\12.osztaly\osztottvaltozoFügveny(hazi)\osztottvaltozoFügveny(hazi)\bin\Debug\osztottvaltozoFügveny(hazi).exe.config
+F:\iskola\programozas\c#\12.osztaly\osztottvaltozoFügveny(hazi)\osztottvaltozoFügveny(hazi)\bin\Debug\osztottvaltozoFügveny(hazi).exe
+F:\iskola\programozas\c#\12.osztaly\osztottvaltozoFügveny(hazi)\osztottvaltozoFügveny(hazi)\bin\Debug\osztottvaltozoFügveny(hazi).pdb
+F:\iskola\programozas\c#\12.osztaly\osztottvaltozoFügveny(hazi)\osztottvaltozoFügveny(hazi)\obj\Debug\osztottvaltozoFügveny(hazi).csproj.AssemblyReference.cache
+F:\iskola\programozas\c#\12.osztaly\osztottvaltozoFügveny(hazi)\osztottvaltozoFügveny(hazi)\obj\Debug\osztottvaltozoFügveny(hazi).csproj.CoreCompileInputs.cache
+F:\iskola\programozas\c#\12.osztaly\osztottvaltozoFügveny(hazi)\osztottvaltozoFügveny(hazi)\obj\Debug\osztottvaltozoFügveny(hazi).exe
+F:\iskola\programozas\c#\12.osztaly\osztottvaltozoFügveny(hazi)\osztottvaltozoFügveny(hazi)\obj\Debug\osztottvaltozoFügveny(hazi).pdb
