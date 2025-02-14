@@ -1,0 +1,14 @@
+Z:\programozas\Hello\Hello\bin\Debug\Hello.exe.config
+Z:\programozas\Hello\Hello\bin\Debug\Hello.exe
+Z:\programozas\Hello\Hello\bin\Debug\Hello.pdb
+Z:\programozas\Hello\Hello\obj\Debug\Hello.csproj.AssemblyReference.cache
+Z:\programozas\Hello\Hello\obj\Debug\Hello.csproj.CoreCompileInputs.cache
+Z:\programozas\Hello\Hello\obj\Debug\Hello.exe
+Z:\programozas\Hello\Hello\obj\Debug\Hello.pdb
+F:\programozas\Hello\Hello\bin\Debug\Hello.exe.config
+F:\programozas\Hello\Hello\bin\Debug\Hello.exe
+F:\programozas\Hello\Hello\bin\Debug\Hello.pdb
+F:\programozas\Hello\Hello\obj\Debug\Hello.csproj.AssemblyReference.cache
+F:\programozas\Hello\Hello\obj\Debug\Hello.csproj.CoreCompileInputs.cache
+F:\programozas\Hello\Hello\obj\Debug\Hello.exe
+F:\programozas\Hello\Hello\obj\Debug\Hello.pdb

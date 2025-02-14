@@ -1,0 +1,7 @@
+D:\iskola\programozas\c#\eloltesztelo\eloltesztelo\bin\Debug\eloltesztelo.exe.config
+D:\iskola\programozas\c#\eloltesztelo\eloltesztelo\bin\Debug\eloltesztelo.exe
+D:\iskola\programozas\c#\eloltesztelo\eloltesztelo\bin\Debug\eloltesztelo.pdb
+D:\iskola\programozas\c#\eloltesztelo\eloltesztelo\obj\Debug\eloltesztelo.csproj.AssemblyReference.cache
+D:\iskola\programozas\c#\eloltesztelo\eloltesztelo\obj\Debug\eloltesztelo.csproj.CoreCompileInputs.cache
+D:\iskola\programozas\c#\eloltesztelo\eloltesztelo\obj\Debug\eloltesztelo.exe
+D:\iskola\programozas\c#\eloltesztelo\eloltesztelo\obj\Debug\eloltesztelo.pdb
