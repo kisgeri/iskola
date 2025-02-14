@@ -1,0 +1,6 @@
+D:\iskola\projekt\12.osztaly\otoslotto\otoslotto\otoslotto\bin\Debug\otoslotto.exe.config
+D:\iskola\projekt\12.osztaly\otoslotto\otoslotto\otoslotto\bin\Debug\otoslotto.exe
+D:\iskola\projekt\12.osztaly\otoslotto\otoslotto\otoslotto\bin\Debug\otoslotto.pdb
+D:\iskola\projekt\12.osztaly\otoslotto\otoslotto\otoslotto\obj\Debug\otoslotto.exe
+D:\iskola\projekt\12.osztaly\otoslotto\otoslotto\otoslotto\obj\Debug\otoslotto.pdb
+D:\iskola\projekt\12.osztaly\otoslotto\otoslotto\otoslotto\obj\Debug\otoslotto.csprojAssemblyReference.cache

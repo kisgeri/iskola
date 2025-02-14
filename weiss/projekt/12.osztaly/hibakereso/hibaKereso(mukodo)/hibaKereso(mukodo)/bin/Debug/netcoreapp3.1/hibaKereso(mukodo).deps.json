@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "hibaKereso(mukodo)/1.0.0": {
+        "runtime": {
+          "hibaKereso(mukodo).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "hibaKereso(mukodo)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
