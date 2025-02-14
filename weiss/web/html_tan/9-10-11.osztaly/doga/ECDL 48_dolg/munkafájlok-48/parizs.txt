@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+    <div id="felso">
+        <h1>Jani utazós web site-ja</h1>
+    </div>
+    <div id="kozep">
+        <div id="oldal">
+            <p><a href="index.html">Kezdőlap</a></p>
+            <p><a href="london.html">London</a></p>
+            <p><a href="parizs.html">Párizs</a></p>
+            <p><a href="kapcsolat.html">Kapcsolat</a></p>
+        </div>
+        <div id="tartalom">
+            <h2>Párizs, október</h2>
+            <p>Nem sikerült annyi képet csinálnom, amennyit szerettem volna, mivel a második nap elvesztettem a fényképezőt. Sebaj, mostanra már van egy másik, így Rómát már megörökíthetem!<br>
+            A kedvenc helyem egy kis étterem volt, a Le jardin, ahol órákon át el lehet merengeni a kaja és a pia felett. Van weboldaluk is: <a href="http://www.le-jardin.fr">www.le-jardin.fr</a></p>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Helyszín</td>
+                        <td>Diadalív</td>
+                        <td>Eiffel-torony</td>
+                        <td>Notre Dame</td>
+                    </tr>
+                    <tr>
+                        <td>Fénykép</td>
+                        <td><img src="arcdetriomphe.jpg"></td>
+                        <td><img src="eifle2.jpg"></td>
+                        <td><img src="notre_dame.jpg"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div id="also">&copy; Minden jog fenntartva!</div>
+</body>
+</html>

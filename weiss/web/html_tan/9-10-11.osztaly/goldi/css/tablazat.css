@@ -1,0 +1,20 @@
+body{background:#58D68D ;
+     font-family: 'Comic Sans MS',  sans-serif;
+
+	}
+table th {
+	border: 5px solid #E74C3C;
+	padding: 10px;
+	background: #E74C3C;
+	background-clip: padding-box;
+	color:#58D68D;
+	border-radius: 10px;
+	border-style: dotted;
+}
+table tr td{
+	border: 5px solid #E74C3C;
+	padding: 5px;
+	width:500px;
+	color:#E74C3C;
+	border-radius: 10px;
+}
