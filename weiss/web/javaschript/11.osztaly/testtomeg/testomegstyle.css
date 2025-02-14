@@ -1,0 +1,25 @@
+table{
+    color: blue;
+    border: solid 2px blue;
+    
+    background-color: black;
+}
+tr{
+    border-radius: 2px;
+}
+.beker {
+    background-color: darkgray;
+    border-radius: 2px;
+    
+}
+.beker1 {
+    background-color: darkcyan;
+    border-radius: 2px;
+    
+}
+.eredmeny{
+    background-color: gray;
+    border-radius: 2px;
+    
+    
+}

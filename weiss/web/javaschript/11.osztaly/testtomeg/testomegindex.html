@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="testomegstyle.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <table>
+        <tr class="beker">
+            <td>testsúlyod: </td><td> <input type='number' onkeyup="szamol()" min='5' max='550' id="testsuly" size="10"></td> <td>kg</td>
+        </tr>
+        <tr class="beker">
+            <td>magasságod: </td><td> <input type='number' onkeyup="szamol()" min='50' max='400' id="magassag" size="10"></td> <td>cm</td>
+        </tr>
+        <tr class="eredmeny">
+            
+            <td>testtömegindexed: </td><td> <input  id="testtomegindexed" size="10" readonly></td> <td>kg/m<sup>2</sup></td>
+        </tr>
+        <tr class="eredmeny">
+            
+            <td>súlytöbblet: </td><td> <input  id="sulytöbbleted" size="10" readonly></td> <td>kg/m<sup>2</sup></td>
+        </tr>
+    </table>
+    <script>
+
+        function szamol()
+        {
+            suly = parseFloat(document.getElementById('testsuly').value)
+            magas = parseFloat(document.getElementById('magassag').value)
+
+            testomegindex=suly/( (magas/100)*(magas/100) )
+            sulytobblet = suly-20 * ( (magas/100)*(magas/100) )
+
+            document.getElementById('testtomegindexed').value = testomegindex
+            document.getElementById('sulytöbbleted').value = sulytobblet
+
+            
+            if(testomegindex <= 18)
+            {
+                document.getElementById('testtomegindexed').style.backgroundColor = 'yellow';
+            }
+            else if(testomegindex >= 25)
+            {
+                document.getElementById('testtomegindexed').style.backgroundColor = 'red';
+            }
+            else
+            {
+                document.getElementById('testtomegindexed').style.backgroundColor = 'green';
+            }
+
+        }
+        
+    </script>
+</body>
+</html>

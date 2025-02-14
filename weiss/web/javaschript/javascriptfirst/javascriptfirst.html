@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8"> 
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>javascript</h1>
+        <h2>ciklusok</h2>
+
+        <hr>
+        <script>                    //javascript 
+        //html:5 ki tölt minden alapot
+
+        document.write('hello világ<br>'); /*elhagyható a pontos vesző ha ez a sor
+                                        bármilyen html taget ki írhatsz scripten belül*/
+        document.write("nagyon jó"); //hiba üzenetett f12-vel tudunk megnézni böngészőbe
+        i = 5 //változó
+        document.write( i," " ); // változó kiírása
+        document.write( i-1," " );
+        
+        //for ciklus i 1-es értéken kezdődik 12-ig megy, egysével
+        document.write('<table border=2>') //kellenek ezek '' ebbe kell belle írni nem tudom miért 
+            for(i=1; i<=20; i=i+1)                                                                          //ciklusra és elágazásra nem teszünk ; mert nem fut le a ciklusz mert le zárja
+            { 
+                
+                
+                document.write('<tr>')
+                for(a=1; a<=20; a=a+1)
+                {
+                    document.write('<td> <title="',i,'*',a,'">',i*a,'</td>')
+                                                                     
+                }
+                document.write('</tr>')
+                
+                
+            }
+        document.write('<table>')
+
+        </script>
+        <hr>
+        <h2>javascript feldatok</h2>
+        <br>
+        <h4>#1</h4>
+        <script language='JavaScript'>
+
+            for( szam1=1; szam1<=20; szam1=szam1+1 )
+            {
+                document.write( szam1, ' ' )
+            }
+    
+        </script>
+
+        <h4>#2</h4>
+        <script language='JavaScript'>
+
+            for( szam1=0; szam1<=30; szam1=szam1+2 )
+            {
+                document.write( szam1, ' ' )
+            }
+
+        </script>
+
+        <h4>#3</h4>
+        <script language='JavaScript'>
+
+            for( szam1=30; szam1<=100; szam1=szam1+7 )
+            {
+                document.write( szam1, ' ' )
+            }
+
+        </script>
+
+        <h4>#4</h4>
+        <script language='JavaScript'>
+
+            for( szam1=112; szam1>=2; szam1=szam1-1 )
+            {
+                document.write( szam1, ' ' )
+            }
+
+        </script>
+
+        <h4>#5</h4>
+        <script language='JavaScript'>
+
+            for( szam1=-90; szam1<=90; szam1=szam1+15 )
+            {
+                document.write( szam1, ' ' )
+            }
+
+        </script>
+
+        <h4>#6</h4>
+        <script language='JavaScript'>
+
+            for( szam1=0; szam1<=9; szam1=szam1+1 )
+            {
+                for( szam2=0; szam2<=9; szam2=szam2+1 )
+                {
+                    szam3 = szam1 + szam2
+                    if (szam3 == 10)
+                    {
+                        document.write( szam1,szam2, ' ' );
+                    }
+                }
+                
+            }
+
+        </script>
+
+        <h4>#7</h4>
+        <script language='JavaScript'>
+
+            for( szam1=0; szam1<=100; szam1=szam1+1 )
+                        {
+                            for( szam2=0; szam2<=100; szam2=szam2+1 )
+                            {
+                                szam3 = szam1 + szam2
+                                if (szam3 == 18)
+                                {
+                                    document.write( szam1,'-',szam2, ' ' );
+                                }
+                            }
+                        }
+            
+        </script>
+
+        <h4>#8</h4>
+        <script language='JavaScript'>
+
+            for( szam1=1; szam1<=10; szam1=szam1+1 )
+            {
+                document.write(szam1,'*', 8,'=',szam1*8)
+                document.write('<br>')
+            }
+        </script>
+
+        <h4>#9</h4>
+        <script language='JavaScript'>
+
+            for( szam1=1; szam1<=15; szam1=szam1+1 )
+            {
+                document.write(szam1*szam1,' ')
+
+            }
+        </script>
+
+        <h4>#10</h4>
+        <script language='JavaScript'>
+
+            for( ev=2022; ev<=2041; ev=ev+1 )
+            {
+                if (ev % 4 != 0) 
+                {
+                    document.write(ev,' ')
+                }
+                
+
+            }
+        </script>
+
+        <h4>#11</h4>
+        <script language='JavaScript'>
+
+            for( szam1=1; szam1<=144; szam1=szam1+1 )
+            {
+                if(144 % szam1 == 0){
+                    document.write(szam1,' ')
+                }
+            }
+        </script>
+
+        <h4>#12</h4>
+        <script language='JavaScript'>
+
+            for( szam1=1; szam1<=250; szam1=szam1+1 )
+            {
+                    document.write(szam1*szam1,' ')
+            }
+        </script>
+
+        <h4>#13</h4>
+        <script language='JavaScript'>
+
+            szam1 = 1;
+            for(i=0; i<=24; i=i+1)
+            {
+                szam1 = szam1+i
+                document.write(szam1, " ");
+            }
+
+        </script>
+        
+        <h4>#14</h4>
+        <script language='JavaScript'>
+
+            szam1 = 0;
+            szam2 = 1;
+            for(szam=0; szam<=17; szam=szam+1)
+            {   
+                szam3 = szam1+szam2
+                szam1 = szam2
+                szam2 = szam3
+                document.write(szam3, " ");
+            }
+
+        </script>
+
+        <h4>#15</h4>
+        <script language='JavaScript'>
+
+            ido=7//8*60+15
+            for(szam=0; szam<=8; szam=szam+1)
+            {   
+                ido = ido+1
+                document.write(ido,":15", " ");
+                
+            }
+            document.write("<br>")
+            for(i=8*60+15; i<=16*60+15; i=i+60)
+            {
+                ora =Math.floor( i/60) ; if (ora < 10) ora = "0"+ora 
+                perc = i%60 ; if (perc < 10) perc = "0"+perc 
+                document.write(ora,":",perc, " ");
+            }
+
+        </script>
+
+        <h4>#16</h4>
+        <script language='JavaScript'>
+
+            for(i=8*60; i<=12*60; i=i+20)
+            {
+                
+                ora =Math.floor( i/60); if (ora < 10) ora = "0"+ora 
+                
+                perc = i%60 ; if (perc < 10) perc = "0"+perc 
+                document.write(ora,":",perc," ");
+                
+            }
+
+        </script>
+
+        <h4>#17</h4>
+        <script language='JavaScript'>
+
+            for(i=8*60; i<=18*60; i=i+50)
+            {
+                ora =Math.floor( i/60) ; if (ora < 10) ora = "0"+ora 
+                perc = i%60 ; if (perc < 10) perc = "0"+perc 
+                document.write(ora,":",perc, " ");
+            }
+
+        </script>
+
+        <h4>#18</h4>
+        <script language='JavaScript'>
+            szam=0
+            for(i=8*60+30; i<=14*60+55; i=i+55)
+            {
+                ora =Math.floor( i/60); if (ora < 10) ora = "0"+ora 
+                perc = i%60 ; if (perc < 10) perc = "0"+perc 
+                i2 = i+45
+                szam = szam+1
+                ora2 =Math.floor( i2/60) ; if (ora2 < 10) ora2 = "0"+ora2
+                perc2 = i2%60 ; if (perc2 < 10) perc2 = "0"+perc2 
+                document.write(szam,". ",ora,":",perc," - ",ora2,":",perc2, " ");
+                document.write("<br>")
+                
+            }
+
+
+        </script>
+
+        <h4>#19</h4>
+        <script language='JavaScript'>
+            document.write('<table id="tabla" border=2 > ') //mardék osz, osz,
+            for(i=0; i<=80; i=i+10)   //ciklusra és elágazásra nem teszünk ; mert nem fut le a ciklusz mert le zárja
+            { 
+                
+                
+                document.write('<tr>')
+                for(a=1; a<=10; a=a+1)
+                {
+                    document.write('<td>',i+a,'</td>')
+                                                                     
+                }
+                document.write('</tr>')
+                
+                
+            }
+            document.write('<table>')
+
+
+
+        </script>
+
+        <h4>#20</h4>
+        
+        <script language='JavaScript'>
+            document.write('<table id="tabla2"   border=2> <tr>')	
+
+            for(i=-3; i<=31; i++)
+            {
+                if(i<1) document.write('<td class=ures> </td>')
+		        else
+                document.write('<td>', i, '</td>')
+                if(i%7==3){color = "red"; document.write('</tr> <tr>')}
+                
+                
+            }
+	
+	
+
+	        document.write('</tr> </table>')
+            
+        </script>
+
+
+
+
+
+
+
+
+
+
+
+        <hr>
+        <h2>random</h2>
+
+        <hr>
+        <script language='JavaScript'>
+
+            k = Math.floor( Math.random()*6 ) + 1
+            document.write( k )
+
+        </script>
+        <hr> 
+
+        <h2>javascript feldatok</h2>
+        <h4>#1</h4>
+        <script language='JavaScript'>
+
+            l = Math.floor( Math.random()*25 ) + 2000
+            document.write( l )
+    
+        </script>
+
+        <h4>#2</h4>
+        <script language='JavaScript'>
+
+            l = Math.floor( Math.random()*25 )
+            if (l < 10) l = "0"+l
+            k = Math.floor( Math.random()*60 )
+            if (k < 10) k = "0"+k
+            document.write( l,':',k )
+
+        </script>
+
+        <h4>#3</h4>
+        <script language='JavaScript'>
+
+            l = Math.floor( Math.random()*24 ) + 6
+
+            k = Math.floor( Math.random()*2 ) + 8
+
+            document.write( l,'.',k,90 )
+
+        </script>
+
+        <h4>#4</h4>
+        <script language='JavaScript'>
+            
+            for(i=0; i<=13; i=i+1)
+            {
+                l = Math.floor( Math.random()*3 )
+                if (l == 0)
+                {
+                    l = "X"
+                }
+                document.write(l,' ')
+            }
+            
+            
+        </script>
+
+        <h4>#5</h4>
+        <script language='JavaScript'>
+            
+            for(i=0; i<=4; i=i+1)
+            {
+                l = Math.floor( Math.random()* 89) + 1
+
+                document.write(l,' ')
+            }
+            
+            
+        </script>
+
+        <h4>#6</h4>
+        <script language='JavaScript'>
+            
+
+            k = Math.floor( Math.random()* 120) + 600 /* 10*60 */
+            for(i=k; i<=(1080);)/* 18*60 */
+            {
+                l = Math.floor( Math.random()* 105) + 15 /*eltelendő percek*/
+
+                ora = Math.floor(i / 60) ; if (ora < 10) ora = "0"+ora
+                perc = i % 60 ; if (perc < 10) perc = "0"+perc
+
+                document.write(ora,':',perc,' ');
+                i += l;
+            }
+                
+
+            
+            
+            
+        </script>
+
+
+
+
+
+        <h4>#7</h4>
+        <script language='JavaScript'>
+            k = ""
+            for(i=1; i<=3; i=i+1)
+            {
+                k += Math.floor( Math.random()* 15).toString(16);
+                
+            }
+            szin = "#"+k
+            document.write(szin)
+            document.write('<div style="border=2; width: 50px;height: 50px;border-radius:10% ;margin-left: 5%;margin-top: -3%; ;background-color: '+szin+' "></div>')
+
+            
+            
+            
+        </script>
+
+        <h4>#8</h4>
+        <script language='JavaScript'>
+            for(j=0; j<=8; j++)
+            {
+                k = ""
+                for(i=1; i<=3; i=i+1)
+                {
+                    k += Math.floor( Math.random()* 15).toString(16);
+                    
+                }
+                szin = "#"+k
+                document.write('<div style="border=2; width: 50px;height: 50px;display: flex;flex-direction: row;border-radius:50%;display: inline-block;margin-left: 1%;  background-color: '+szin+' "></div>')
+            }
+            
+            
+            
+        </script>
+
+        <h4>#9</h4>
+        <script language='JavaScript'>
+            document.write('<div style="position: relative;"><img src="celtabla.png">')
+
+            k = Math.floor( Math.random()* 9) + 3
+                for(i=0; i<=k; i++)
+                {
+                    x = Math.floor( Math.random()* 390) + 3;
+                    y = Math.floor( Math.random()* 390) + 3;
+                    document.write('<span style="position:absolute; left:',x,'px; top:',y,'px; width:11px; height:11px; background-color:#F00; border-radius:50%;"></span>') 
+                    
+                }
+
+            document.write("</div>")
+                
+                
+            
+            
+            
+            
+        </script>
+
+        <h4>#10</h4>
+        <script language='JavaScript'>
+            characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+            charactersLength = characters.length;
+            
+            for(i=0; i<=9; i++)
+            {
+            document.write(characters.charAt(Math.floor(Math.random() * charactersLength)));
+            
+            }
+            
+            
+            
+        </script>
+
+
+        <h4>#11</h4>
+        <script language='JavaScript'>
+            document.write('<div style="position: relative; width: 300px;height: 100px;border=2;background-color: '+szin+';border-radius:5%  ">')
+            
+            characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+            charactersLength = characters.length;
+            capcha = "";
+            x = Math.floor( Math.random()* 10) + 3;
+            for(i=x; i<=255;)
+            {
+            y = Math.floor( Math.random()* 20) + 0;
+            fontsize = Math.floor( Math.random()* 50) + 30;
+            rotate = Math.floor( Math.random()* 20) - 20;
+            szoveg = characters.charAt(Math.floor(Math.random() * charactersLength));
+            capcha += "<span style='position: absolute; left:" + i + "px; top:"+y+"px; font-size:"+fontsize+"px; transform: rotate("+rotate+"deg)'>" + szoveg + "</span>";
+            i += Math.floor( Math.random()* 50) + 20;
+            }
+
+            document.write(capcha)
+            for(i=12;i<=100;i = i + 6){
+                document.write('<span style="position:absolute; left:2px; top:',i,'px; width:298px; height:2px; background-color:',szin,'; "></span>')
+            }
+            document.write("</div>")
+
+        </script>
+
+    <script language='JavaScript'>
+        
+        var myInput = new Date().getDate()
+        var myInput2 = new Date().toLocaleString('default', { month: 'short' })
+        var myInput3 = new Date().getFullYear()
+
+        
+        
+            document.write('<dl><dt>day</dt><dd>'+myInput+'</dd><dt>month</dt><dd>'+myInput2+'</dd><dt>year</dt><dd>'+myInput3+'</dd></dl>')
+        
+    </script>
+
+        
+
+    </body>
+</html>

@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meddig élhetsz</title>
+    <link rel="stylesheet" href="eletkor.css">
+</head>
+<body>
+    <form name="meddig_élhetsz">
+        <table>
+            
+            <tr>
+                <td> </td>
+                <p class='valaszok'>
+                <td> igen</td> <td>nem</td>
+                </p>
+            </tr>
+
+            <tr>
+                <td>Férfi vagy? </td>
+                    <p class='valaszok'>
+                        <td><input type=radio name='k1' onclick="document.meddig_élhetsz.k2[1].checked=true"></td>     
+                        <td><input type=radio name='k1' onclick="document.meddig_élhetsz.k2[0].checked=true">  </td>
+                        
+                     </p>
+                
+            </tr>
+            <tr>
+                <td>Nő vagy? </td>
+                <p class='valaszok'>
+                    <td><input type=radio name='k2' onclick="document.meddig_élhetsz.k1[1].checked=true"></td>     
+                    <td><input type=radio name='k2' onclick="document.meddig_élhetsz.k1[0].checked=true">  </td>
+                    
+                 </p>
+            </tr>
+            
+            <tr class="nem">
+                <td>30 és 40 közötti vagy? </td>
+                <p class='valaszok' >
+                    <td><input type=radio name='k3' onclick="    szin(); 
+                                                                document.meddig_élhetsz.k4[1].checked=true
+                                                                document.meddig_élhetsz.k5[1].checked=true
+                                                                document.meddig_élhetsz.k6[1].checked=true"
+                                                                
+                                                                > </td>     
+                    <td><input type=radio name='k3' onclick="    szin();">  </td>
+                    
+                 </p>
+            </tr>
+            
+            <tr>
+                <td>40 és 50 közötti vagy? </td> 
+                <p class='valaszok'>
+                    <td><input type=radio name='k4' onclick="szin();
+                                                                document.meddig_élhetsz.k3[1].checked=true
+                                                                document.meddig_élhetsz.k5[1].checked=true
+                                                                document.meddig_élhetsz.k6[1].checked=true"></td>     
+                    <td><input type=radio name='k4' onclick="    szin();">  </td>
+                    
+                 </p>
+            </tr>
+            
+            <tr>
+                <td>50 és 70 közötti vagy? </td> 
+                <p class='valaszok'>
+                    <td><input type=radio name='k5' onclick="szin() ;
+                                                                document.meddig_élhetsz.k4[1].checked=true
+                                                                document.meddig_élhetsz.k3[1].checked=true
+                                                                document.meddig_élhetsz.k6[1].checked=true"></td>     
+                    <td><input type=radio name='k5' onclick="    szin();">  </td>
+                    
+                 </p>
+            </tr>
+            
+            <tr>
+                <td>70 évesnél idősebb vagy? </td>
+                <p class='valaszok'>
+                    <td><input type=radio name='k6'  onclick="szin();
+                                                                document.meddig_élhetsz.k4[1].checked=true
+                                                                document.meddig_élhetsz.k5[1].checked=true
+                                                                document.meddig_élhetsz.k3[1].checked=true"></td>     
+                    <td><input type=radio name='k6' onclick="    szin();">  </td>
+                    
+                 </p>
+            </tr>
+            
+            <tr class="nem">
+                <td>65 évesnél idősebb vagy és még dolgozol? </td> 
+                <p class='valaszok' >
+                    <td><input type=radio name='k7' onclick="    szin(); "></td>     
+                    <td><input type=radio name='k7' onclick="    szin();">  </td>
+                    
+                 </p>
+            </tr>
+            
+            <tr>
+                <td>Kétmilliós vagy még népesebb nagyvárosban élsz? </td> 
+                <p class='valaszok'>
+                    <td><input type=radio name='k8'></td>     
+                    <td><input type=radio name='k8'>  </td>
+                    
+                 </p>
+            </tr>
+            
+            <tr>
+                <td>Tízezer vagy még kevesebb lakosú kisvárosban vagy falusi környezetben élsz? </td>
+                <p class='valaszok'>
+                    <td><input type=radio name='k9'></td>     
+                    <td><input type=radio name='k9'>  </td>
+                    
+                 </p>
+            </tr>
+            
+            <tr>
+                <td>Egyedül élsz? </td>
+                <p class='valaszok'>
+                    <td><input type=radio name='k10'></td>     
+                    <td><input type=radio name='k10'>  </td>
+                    
+                 </p>
+            </tr>
+            
+            <tr>
+                <td>Élettárssal vagy közeli baráttal élsz? </td>
+                <p class='valaszok'>
+                    <td><input type=radio name='k11'></td>     
+                    <td><input type=radio name='k11'>  </td>
+                    
+                 </p>
+            </tr>
+            
+            <tr>
+                <td>Egyetemi vagy főiskolai diplomád van? </td>
+                <p class='valaszok'>
+                    <td><input type=radio name='k12'></td>     
+                    <td><input type=radio name='k12'>  </td>
+                    
+                 </p>
+            </tr>
+            
+            <tr>
+                <td>Van posztgraduális fokozatod vagy doktorid, illetve hasonló hivatásos vagy tudományos minősítésed?</td>
+                <p class='valaszok'>
+                    <td><input type=radio name='k13'></td>     
+                    <td><input type=radio name='k13'>  </td>
+                    
+                 </p>
+            </tr>
+            
+            <tr>
+                <td>Nagyobb jövedelmed van, mint a népesség 95%-ának? </td>
+                <p class='valaszok'>
+                    <td><input type=radio name='k14'></td>     
+                    <td><input type=radio name='k14'>  </td>
+                    
+                 </p>
+            </tr>
+            
+            <tr>
+                <td>Főként ülőmunkát végzel? </td>
+                <p class='valaszok'>
+                    <td><input type=radio name='k15'></td>     
+                    <td><input type=radio name='k15'>  </td>
+                    
+                 </p>
+            </tr>
+            
+            <tr>
+                <td>A munkád fárasztó testi munkát is magába foglal? </td>
+                <p class='valaszok'>
+                    <td><input type=radio name='k16'></td>     
+                    <td><input type=radio name='k16'>  </td>
+                    
+                 </p>
+            </tr>
+            
+            <tr>
+                <td>Tornázol legalább hetente háromszor legalább 20-30 percet teljes erőbedobással? </td>
+                <p class='valaszok'>
+                    <td><input type=radio name='k17'></td>     
+                    <td><input type=radio name='k17'>  </td>
+                    
+                 </p>
+            </tr>
+            
+            <tr>
+                <td>Átlagosan alszol-e tíz óránál többet bármely 24 órás időszakban? </td> 
+                <p class='valaszok'>
+                    <td><input type=radio name='k18'></td>     
+                    <td><input type=radio name='k18'>  </td>
+                    
+                 </p>
+            </tr>
+            
+            <tr>
+                <td>Boldog vagy? </td>
+                <p class='valaszok'>
+                    <td><input type=radio name='k19'></td>     
+                    <td><input type=radio name='k19'>  </td>
+                    
+                 </p>
+            </tr>
+            
+            <tr>
+                <td>Boldogtalan vagy? </td>
+                <p class='valaszok'>
+                    <td><input type=radio name='k20'></td>     
+                    <td><input type=radio name='k20'>  </td>
+                    
+                 </p>
+            </tr>
+            
+            <tr>
+                <td>Hirtelen természetű és agresszív vagy? </td>
+                <p class='valaszok'>
+                    <td><input type=radio name='k21'></td>     
+                    <td><input type=radio name='k21'>  </td>
+                    
+                 </p>
+            </tr>
+            
+            <tr>
+                <td>Nyugodt és jókedélyű vagy? </td>
+                <p class='valaszok'>
+                    <td><input type=radio name='k22'></td>     
+                    <td><input type=radio name='k22'>  </td>
+                    
+                 </p>
+            </tr>
+            
+            <tr>
+                <td>Volt bármilyen (kisebb vagy nagyobb) közúti baleseted az elmúlt 12 hónapban? </td>
+                <p class='valaszok'>
+                    <td><input type=radio name='k23'></td>     
+                    <td><input type=radio name='k23'>  </td>
+                    
+                 </p>
+            </tr>
+            
+            <tr>
+                <td>40-nél több cigarettát szívsz el naponta?</td>
+                <p class='valaszok'>
+                    <td><input type=radio name='k24'></td>     
+                    <td><input type=radio name='k24'>  </td>
+                    
+                 </p>
+            </tr>
+            
+            <tr>
+                <td>21-40 cigarettát szívsz el naponta? </td>
+                <p class='valaszok'>
+                    <td><input type=radio name='k25'></td>     
+                    <td><input type=radio name='k25'>  </td>
+                    
+                 </p>
+            </tr>
+            
+            <tr>
+                <td>1-20 cigarettát szívsz el naponta?</td>
+                <p class='valaszok'>
+                    <td><input type=radio name='k26'></td>     
+                    <td><input type=radio name='k26'>  </td>
+                    
+                 </p>
+            </tr>
+            
+            <tr>
+                <td>Megiszol naponta 0,5 dl égetett szeszes italt, vagy ennek megfelelő mennyiségű más szeszes italt? </td>
+                <p class='valaszok'>
+                    <td><input type=radio name='k27'></td>     
+                    <td><input type=radio name='k27'>  </td>
+                    
+                 </p>
+            </tr>
+            
+            <tr>
+                <td>Több mint 25 kg-mal több vagy az ideális súlyodnál?</td>
+                <p class='valaszok'>
+                    <td><input type=radio name='k28'></td>     
+                    <td><input type=radio name='k28'>  </td>
+                    
+                 </p>
+            </tr>
+            
+            <tr>
+                <td>15-25 kg-mal több vagy az ideális súlyodnál? </td>
+                <p class='valaszok'>
+                    <td><input type=radio name='k29'></td>     
+                    <td><input type=radio name='k29'>  </td>
+                    
+                 </p>
+            </tr>
+            
+            <tr>
+                <td>5-15 kg-mal több vagy az ideális súlyodnál? </td>
+                <p class='valaszok'>
+                    <td><input type=radio name='k30'></td>     
+                    <td><input type=radio name='k30'>  </td>
+                    
+                 </p>
+            </tr>
+            
+            <tr>
+                <td>Aláveted magad évenkénti orvosi kivizsgálásnak? </td>
+                <p class='valaszok'>
+                    <td><input type=radio name='k31'></td>     
+                    <td><input type=radio name='k31'>  </td>
+                    
+                 </p>
+            </tr>
+            
+            <tr>
+                <td>Élt valamelyik nagyszülőd 85 éves koráig vagy még tovább? </td>
+                <p class='valaszok'>
+                    <td><input type=radio name='k32'></td>     
+                    <td><input type=radio name='k32'>  </td>
+                    
+                 </p>
+            </tr>
+            
+            <tr>
+                <td>Mind a négy nagyszülőd megérte a 80. évet, vagy még többet? </td>
+                <p class='valaszok'>
+                    <td><input type=radio name='k33'></td>     
+                    <td><input type=radio name='k33'>  </td>
+                    
+                 </p>
+            </tr>
+            
+            <tr>
+                <td>Meghalt-e bármelyik szülőd szívbajban vagy infarktusban, mielőtt betöltötte volna az 50. évét? </td>
+                <p class='valaszok'>
+                    <td><input type=radio name='k34'></td>     
+                    <td><input type=radio name='k34'>  </td>
+                    
+                 </p>
+            </tr>
+            
+            <tr>
+                <td>Volt valamelyik szülődnek, vagy testvérdednek szívproblémája vagy rákja 50 éves kora előtt? </td>
+                <p class='valaszok'>
+                    <td><input type=radio name='k35'></td>     
+                    <td><input type=radio name='k35'>  </td>
+                    
+                 </p>
+            </tr>
+            
+            
+        </table>
+        <hr align=left>
+
+         <p align='center'>
+            <input type=button name='gomb' value='Értékel' onclick=' ertekel(); '>
+         </p>
+
+    </form>
+    <script language='javascript'>
+
+function szin()
+        {
+            if( document.meddig_élhetsz.k3[0].checked && document.meddig_élhetsz.k7[0].checked)
+                {
+                    let elements = document.getElementsByClassName('nem');
+                    for (let i = 0; i < elements.length; i++) {
+                        elements[i].style.backgroundColor = 'red';
+                    }
+                }
+            else{
+                let elements = document.getElementsByClassName('nem');
+                    for (let i = 0; i < elements.length; i++) {
+                        elements[i].style.backgroundColor = 'white';
+                    }
+            }
+        }
+
+        function ertekel()
+        {
+           elettartam = 72
+           if( document.meddig_élhetsz.k1[0].checked )   elettartam -= 3
+           if( document.meddig_élhetsz.k2[0].checked )   elettartam += 4
+           if( document.meddig_élhetsz.k3[0].checked )   elettartam += 2 
+           if( document.meddig_élhetsz.k4[0].checked )   elettartam += 3
+           if( document.meddig_élhetsz.k5[0].checked )   elettartam += 4
+           if( document.meddig_élhetsz.k6[0].checked )   elettartam += 5
+           if( document.meddig_élhetsz.k7[0].checked )   elettartam += 3 
+           if( document.meddig_élhetsz.k8[0].checked )   elettartam -= 2
+           if( document.meddig_élhetsz.k9[0].checked )   elettartam += 2
+           if( document.meddig_élhetsz.k10[0].checked )   elettartam -= 3
+           if( document.meddig_élhetsz.k11[0].checked )   elettartam += 5
+           if( document.meddig_élhetsz.k12[0].checked )   elettartam += 1
+           if( document.meddig_élhetsz.k13[0].checked )   elettartam += 2
+           if( document.meddig_élhetsz.k14[0].checked )   elettartam -= 2
+           if( document.meddig_élhetsz.k15[0].checked )   elettartam -= 3
+           if( document.meddig_élhetsz.k16[0].checked )   elettartam += 3
+           if( document.meddig_élhetsz.k17[0].checked )   elettartam += 2
+           if( document.meddig_élhetsz.k18[0].checked )   elettartam -= 4
+           if( document.meddig_élhetsz.k19[0].checked )   elettartam += 1
+           if( document.meddig_élhetsz.k20[0].checked )   elettartam -= 2
+           if( document.meddig_élhetsz.k21[0].checked )   elettartam -= 3
+           if( document.meddig_élhetsz.k22[0].checked )   elettartam += 3
+           if( document.meddig_élhetsz.k23[0].checked )   elettartam -= 1
+           if( document.meddig_élhetsz.k24[0].checked )   elettartam -= 8
+           if( document.meddig_élhetsz.k25[0].checked )   elettartam -= 6
+           if( document.meddig_élhetsz.k26[0].checked )   elettartam -= 3
+           if( document.meddig_élhetsz.k27[0].checked )   elettartam -= 1
+           if( document.meddig_élhetsz.k28[0].checked )   elettartam -= 8
+           if( document.meddig_élhetsz.k29[0].checked )   elettartam -= 4
+           if( document.meddig_élhetsz.k30[0].checked )   elettartam -= 2
+           if( document.meddig_élhetsz.k31[0].checked )   elettartam += 2
+           if( document.meddig_élhetsz.k32[0].checked )   elettartam += 2
+           if( document.meddig_élhetsz.k33[0].checked )   elettartam += 6
+           if( document.meddig_élhetsz.k34[0].checked )   elettartam -= 4
+           if( document.meddig_élhetsz.k35[0].checked )   elettartam -= 3
+  
+                
+        
+           alert( 'várható élettartam: ' + elettartam )
+        }
+  
+  
+  </script>
+</body>
+</html>

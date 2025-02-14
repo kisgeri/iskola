@@ -1,0 +1,41 @@
+@media screen
+	{    
+	    p.nyomtatni
+	    {
+	        display :  none ;
+	    }
+	}
+
+@media print
+	{    
+	    input[type=submit]
+	    {
+	        display :  none ;
+	    }
+
+        p.nyomtatni
+	    {
+	        display :  all ;
+	    }
+        
+	}
+table{
+	padding: 0;
+	box-sizing: border-box;
+}
+tr{
+	padding: 0;
+	box-sizing: border-box;
+}
+td{
+	padding: 0;
+	box-sizing: border-box;
+}
+input{
+	padding: 0;
+}
+p{
+	padding: 0;
+}
+
+

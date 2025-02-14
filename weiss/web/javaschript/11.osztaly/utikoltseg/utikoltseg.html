@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="utikoltseg.css">
+    <title>Útiköltség-elszámolás</title>
+</head>
+<body>
+    <form name='lap'>
+    <h2>Útiköltség-elszámolás</h2>
+    <table>
+        <tr><td><h3>Személyes adatok</h3></td></tr>
+        <tr>
+            <td><p>Név:</p></td>
+            <td><input type='text' name="név"></td>
+        </tr>
+        <tr>
+            <td><p>Lakcím:</p></td>
+            <td><input type='text' name="lakcím"></td>
+        </tr>
+        <tr>
+            <td><p>Születési Dátum:</p></td>
+            <td><input type='date' name="szüldatum"></td>
+        </tr>
+        <tr>
+            <td><h3>Gépjármű- és üzemanyagadatok</h3></td>
+        </tr>
+        
+        <tr>
+            <td><p>Gépjármű gyártmánya, típusa:</p></td>
+            <td><input type='text' name="gyartmany"></td>
+        </tr>
+        <tr>
+            <td><p>Üzemanyag fajtája:</p></td>
+            <td><select name="uzemanyagok" onChange=' feltolt();' >
+                <option value=0>Válasz</option>
+                <option value=1 >Benzin</option>
+                <option value=2 >Gázolaj</option>
+                
+            </select></td>
+        </tr>
+        <tr>
+            <td><p>Fogyasztási norma:</p></td>
+            <td><select name="norma">
+                
+            </select></td>
+        </tr>
+        <tr>
+            <td><p>Utazás dátuma:</p></td>
+            <td><input type='date' name="utazasdatum"></td>
+        </tr>
+        <tr>
+            <td><p>Üzemanyag egységára:</p></td>
+            <td><input type='number' name="egysegar">Ft/l</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><sub><p>Forrás: <a href="https://nav.gov.hu/ugyfeliranytu/uzemanyag/">https://nav.gov.hu/ugyfeliranytu/uzemanyag/</a></p></sub></td>
+        </tr>
+        <tr>
+            <td><h3>A megtett út adatai</h3></td>
+            
+        </tr>
+        <tr>
+            <td><p>Kiindulási hely: </p></td>
+            <td><input type='text' name="indulasihely"></td>
+        </tr>
+        <tr>
+            <td><p>Úticél: </p></td>
+            <td><input type='text' name="uticel"></td>
+        </tr>
+        <tr>
+            <td><p>További úticél: </p></td>
+            <td><input type='text' ></td>
+        </tr>
+        <tr>
+            <td><p>Összes megtett távolság<br>
+                Google Maps alapjá : </p></td>
+            <td><input type='number' name="osztavolsag">km</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" onclick="ell()" value="Ellenőrzés és számítás"></td>
+        </tr>
+        <tr><td colspan="2"><hr></td></tr>
+
+        <tr>
+            <td>Útiköltség:</td>
+            <td id="utikoltseg"></td>
+            
+        </tr>
+        <tr>
+            <td>Amortizáció:</td>
+            <td id="amortizacio"></td>
+            
+        </tr>
+        <tr>
+            <td><strong>Összes elszámolható költség:</strong></td>
+            <td id="osszelszamolas"></td>
+            
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" name="nyomtatas" onclick="window.print()" value="Nyomtatás" disabled></td>
+            
+        </tr>
+        <tr>
+            <td colspan="2"><p class="nyomtatni">Aláírásommal igazolom, hogy az adatok a valóságnak megfelelnek.</p></td>
+        </tr>
+        <tr>
+            <td colspan="2"><p class="nyomtatni">........................................ <span id="datetime"></span></p></td>
+        </tr>
+        <tr>
+            <td><p class="nyomtatni" id="aláírás">........................................ </p><p>aláírás</p></td></td>
+            
+        </tr>
+        
+    </table>
+</form>
+</body>
+</html>
+
+<script>
+
+    dizel_fogy = [5.7, 6.7, 7.6, 9.5];
+    benzin_fogy = [7.6, 8.6, 9.5, 11.4, 13.3];
+    function feltolt()
+    {
+  
+      if(document.lap.uzemanyagok.value==0)
+      {
+        document.lap.norma.length=1
+        
+      }
+  
+      if(document.lap.uzemanyagok.value==1)
+      {
+        document.lap.norma.length=5
+        document.lap.norma.options[0].text="1000 cm3-ig 7,6 l/100km"
+        document.lap.norma.options[0].value=0
+        document.lap.norma.options[1].text="1001-1500 cm3 között 8,6 l/100km"
+        document.lap.norma.options[1].value=1
+        document.lap.norma.options[2].text="1501-2000 cm3 között 9,5 l/100km"
+        document.lap.norma.options[2].value=2
+        document.lap.norma.options[3].text="2001-3000 cm3 között 11,4 l/100km"
+        document.lap.norma.options[3].value=3
+        document.lap.norma.options[4].text="3001 cm3 fölött 13,3 l/100km"
+        document.lap.norma.options[4].value=4
+        
+
+      }
+  
+      if(document.lap.uzemanyagok.value==2)
+      {
+        document.lap.norma.length=4
+        document.lap.norma.options[0].text="1500 cm3-ig 5,7 l/100km"
+        document.lap.norma.options[0].value=0
+        document.lap.norma.options[1].text="1501-2000 cm3 között 6,7 l/100km"
+        document.lap.norma.options[1].value=1
+        document.lap.norma.options[2].text="2001-3000 cm3 között 7,6 l/100km"
+        document.lap.norma.options[2].value=2
+        document.lap.norma.options[3].text="3001 cm3 fölött 9,5 l/100km"
+        document.lap.norma.options[3].value=3
+      }
+  
+    }
+    //https://www.youtube.com/watch?v=gcdLc51wTCE
+    function ell()
+    {
+        var e = document.getElementsByName("norma")[0];
+        var value = e.value;
+        event.preventDefault(); 
+
+        var day = new Date().getDate();
+        var month = new Date().toLocaleString('default', { month: 'long' });
+        var year = new Date().getFullYear() ;
+
+        datetime = year +'.'+ month+'.' + day;
+
+        document.getElementById("datetime").innerHTML = datetime;
+
+        megadott = 11;
+        inputnevek = ["név","lakcím","szüldatum","gyartmany"
+                    ,"uzemanyagok","norma","utazasdatum","egysegar",
+                    "indulasihely","uticel","osztavolsag"];
+
+        for(i=0; i < inputnevek.length;i++)
+        {
+            if(!document.getElementsByName(inputnevek[i])[0].value)
+            {
+                megadott = megadott-1;
+                document.getElementsByName(inputnevek[i])[0].style.backgroundColor = "red";
+
+            }
+            else
+            {
+                document.getElementsByName(inputnevek[i])[0].style.backgroundColor = "white";
+            }
+        }
+
+        if(document.lap.uzemanyagok.value==0)
+        {
+            megadott = megadott-1;
+            document.lap.uzemanyagok.style.backgroundColor = "red";
+        }
+        else
+        {
+            document.lap.uzemanyagok.style.backgroundColor = "white";
+        }
+
+        //fogyasztási normákal kell kezdenem valamit
+        if (megadott == 11){
+                if(document.lap.uzemanyagok.value==1){
+                    console.log(document.getElementsByName("norma")[0].text);
+                    fogyasztasinorma = benzin_fogy[document.getElementsByName("norma")[0].value];
+                }else{
+                    fogyasztasinorma = dizel_fogy[document.getElementsByName("norma")[0].value];
+                }
+                utikoltseg = fogyasztasinorma * document.getElementsByName("egysegar")[0].value * document.getElementsByName("osztavolsag")[0].value / 100;
+
+                document.getElementById('utikoltseg').innerHTML = Math.round(utikoltseg) + " Ft";
+                document.getElementById('amortizacio').innerHTML = document.getElementsByName("osztavolsag")[0].value * 15 + " Ft";
+                document.getElementById('osszelszamolas').innerHTML = document.getElementsByName("osztavolsag")[0].value * 15 + Math.round(utikoltseg) + " Ft";
+                document.getElementsByName('nyomtatas')[0].disabled = false;
+            }else{
+                document.getElementById('utikoltseg').innerHTML = "";
+                document.getElementById('amortizacio').innerHTML = "";
+                document.getElementById('osszelszamolas').innerHTML = "";
+                document.getElementsByName('nyomtatas')[0].disabled = true;
+            }
+
+        
+    }
+
+</script>

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="testomegstyle.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+
+    <table>
+        <tr class="beker">
+            <td>sport,mozgás </td><td>kcal/óra</td> <td>perc</td><td>kcal</td>
+        </tr>
+        <tr class="beker">
+            <td>futás: </td><td>680</td> <td><input type='number' onkeyup="szamolas()" onchange="szamolas()" min='1' id="futas" size="10"></td><td><input type='number' onkeyup="szamolas()" onchange="szamolas()" min='1' id="futaskcal" size="10"></td>
+        </tr>
+        <tr class="beker">
+            <td>focizás: </td><td>550</td> <td><input type='number' onkeyup="szamolas()" onchange="szamolas()" min='1' id="foci" size="10"></td><td><input type='number' onkeyup="szamolas()" onchange="szamolas()" min='1' id="focikcal" size="10"></td>
+        </tr>
+        <tr class="beker">
+            <td>bringázás: </td><td>480</td> <td><input type='number' onkeyup="szamolas()" onchange="szamolas()" min='1' id="bringa" size="10"></td><td><input type='number' onkeyup="szamolas()" onchange="szamolas()" min='1' id="bringakcal" size="10"></td>
+        </tr>
+        <tr class="beker">
+            <td>hegymászás: </td><td>420</td> <td><input type='number' onkeyup="szamolas()" onchange="szamolas()" min='1' id="hegym" size="10"></td><td><input type='number' onkeyup="szamolas()" onchange="szamolas()" min='1' id="hegykcal" size="10"></td>
+        </tr>
+        <tr class="beker">
+            <td>lovaglás: </td><td>370</td> <td><input type='number' onkeyup="szamolas()" onchange="szamolas()" min='1' id="lovaglas" size="10"></td><td><input type='number' onkeyup="szamolas()" onchange="szamolas()" min='1' id="lovaglaskcal" size="10"></td>
+        </tr>
+        <tr class="beker">
+            <td>Túrázás: </td><td>360</td> <td><input type='number' onkeyup="szamolas()" onchange="szamolas()" min='1' id="túra" size="10"></td><td><input type='number' onkeyup="szamolas()" onchange="szamolas()" min='1' id="túrakcal" size="10"></td>
+        </tr>
+        <tr class="beker">
+            <td>kajakozás: </td><td>340</td> <td><input type='number' onkeyup="szamolas()" onchange="szamolas()" min='1' id="kajak" size="10"></td><td><input type='number' onkeyup="szamolas()" onchange="szamolas()" min='1' id="kajakkcal" size="10"></td>
+        </tr>
+        <tr class="beker">
+            <td>súlyzós edzés: </td><td>320</td> <td><input type='number' onkeyup="szamolas()" onchange="szamolas()" min='1' id="edzés" size="10"></td><td><input type='number' onkeyup="szamolas()" onchange="szamolas()" min='1' id="edzéskcal" size="10"></td>
+        </tr>
+        <tr class="beker">
+            <td>pingpongozás: </td><td>270</td> <td><input type='number' onkeyup="szamolas()" onchange="szamolas()" min='1' id="pingpong" size="10"></td><td><input type='number' onkeyup="szamolas()" onchange="szamolas()" min='1' id="pingpongkcal" size="10"></td>
+        </tr>
+        <tr class="beker">
+            <td>kutyasétáltatás: </td><td>200</td> <td><input type='number' onkeyup="szamolas()" onchange="szamolas()" min='1' id="kutyasétál" size="10"></td><td><input type='number' onkeyup="szamolas()" onchange="szamolas()" min='1' id="kutyakcal" size="10"></td>
+        </tr>
+        <tr class="beker1">
+            <td colspan="2">összesen: </td> <td><input type='number' onkeyup="szamolas()" onchange="szamolas()" min='1' id="öszperc" size="10"></td><td><input type='number' onkeyup="szamolas()" onchange="szamolas()" min='1' id="öszkcal" size="10"></td>
+        </tr>
+        <tr class="beker1">
+            <td colspan="3">Napi energiaszükséglet (2000 kcal) arányban: </td><td><input type='number' onkeyup="szamolas()" onchange="szamolas()" min='1' id="arány" size="10">%</td>
+        </tr>
+        
+    </table>
+    <input type="reset" value="adatok törlése">
+
+
+    </form>
+    <script>
+
+        function szamolas()
+
+        
+        {
+            oszperc = 0
+            oszkcal = 0
+            
+            fut = document.getElementById('futas').value
+            if(fut !== '')
+            {
+                
+                futperc = parseFloat(document.getElementById('futas').value)
+                futkcal = (futperc/60)*680
+                document.getElementById('futaskcal').value = futkcal
+                oszperc += futperc
+                oszkcal += futkcal
+                futkcal = 0
+            }
+            else
+            {
+                futkcal = 0
+                document.getElementById('futaskcal').value = futkcal
+            }
+            
+            
+            
+
+            foc = document.getElementById('foci').value
+            if(foc !== '')
+            {
+                focperc = parseFloat(document.getElementById('foci').value)
+                fockcal=(focperc/60)*550
+                document.getElementById('focikcal').value = fockcal
+                oszperc += focperc
+                oszkcal += fockcal 
+                fockcal = 0
+                
+            }
+            else
+            {
+                fockcal = 0
+                document.getElementById('focikcal').value = fockcal
+            }
+
+            brin = document.getElementById('bringa').value
+            if(brin !== '')
+            {
+                brinperc = parseFloat(document.getElementById('bringa').value)
+                brinkcal=(brinperc/60)*480
+                document.getElementById('bringakcal').value = brinkcal
+                oszperc += brinperc
+                oszkcal += brinkcal 
+                brinkcal = 0
+                
+            }
+            else
+            {
+                brinkcal = 0
+                document.getElementById('bringakcal').value = brinkcal
+            }
+            
+            heg = document.getElementById('hegym').value
+            if(heg !== '')
+            {
+                
+                hegperc = parseFloat(document.getElementById('hegym').value)
+                hegkcal=(hegperc/60)*420
+                document.getElementById('hegykcal').value = hegkcal
+                oszperc += hegperc
+                oszkcal += hegkcal
+                hegkcal = 0
+            }
+            else
+            {
+                hegkcal = 0
+                document.getElementById('hegykcal').value = hegkcal
+            }
+            
+            lo = document.getElementById('lovaglas').value
+            if(lo !== '')
+            {
+                
+                loperc = parseFloat(document.getElementById('lovaglas').value)
+                lokcal=(loperc/60)*370
+                document.getElementById('lovaglaskcal').value = lokcal
+                oszperc += loperc
+                oszkcal += lokcal
+                lokcal = 0
+            }
+            else
+            {
+                lokcal = 0
+                document.getElementById('hegykcal').value = hegkcal
+            }
+            
+            tu = document.getElementById('túra').value
+            if(tu !== '')
+            {
+                
+                turperc = parseFloat(document.getElementById('túra').value)
+                turkcal=(turperc/60)*360
+                document.getElementById('túrakcal').value = turkcal
+                oszperc += turperc
+                oszkcal += turkcal
+                turkcal = 0
+            }
+            else
+            {
+                turkcal = 0
+                document.getElementById('túrakcal').value = turkcal
+            }
+            
+            kaj = document.getElementById('kajak').value
+            if(kaj !== '')
+            {
+                
+                kajperc = parseFloat(document.getElementById('kajak').value)
+                kajkcal=(kajperc/60)*340
+                document.getElementById('kajakkcal').value = kajkcal
+                oszperc += kajperc
+                oszkcal += kajkcal
+                kajkcal = 0
+            }
+            else
+            {
+                kajkcal = 0
+                document.getElementById('kajakkcal').value = kajkcal
+            }
+
+            ed = document.getElementById('edzés').value
+            if(ed !== '')
+            {
+                
+                edperc = parseFloat(document.getElementById('edzés').value)
+                edkcal=(edperc/60)*320
+                document.getElementById('edzéskcal').value = edkcal
+                oszperc += edperc
+                oszkcal += edkcal
+                edkcal = 0
+            }
+            else
+            {
+                edkcal = 0
+                document.getElementById('edzéskcal').value = edkcal
+            }             
+            
+            ping = document.getElementById('pingpong').value
+            if(ping !== '')
+            {
+                
+                pingperc = parseFloat(document.getElementById('pingpong').value)
+                pingkcal=(pingperc/60)*270
+                document.getElementById('pingpongkcal').value = pingkcal
+                oszperc += pingperc
+                oszkcal += pingkcal
+                pingkcal = 0
+            }
+            else
+            {
+                pingkcal = 0
+                document.getElementById('pingpongkcal').value = pingkcal
+            }        
+            
+            kuty = document.getElementById('kutyasétál').value
+            if(kuty !== '')
+            {
+                
+                kutyperc = parseFloat(document.getElementById('kutyasétál').value)
+                kutykcal=(kutyperc/60)*200
+                document.getElementById('kutyakcal').value = kutykcal
+                oszperc += kutyperc
+                oszkcal += kutykcal
+                kutykcal = 0
+            }
+            else
+            {
+                kutykcal = 0
+                document.getElementById('kutyakcal').value = kutykcal
+            }
+
+            
+             
+
+            
+
+            
+
+            
+ 
+            szazalek = (oszkcal / 2000) * 100            
+
+            /*
+            oszperc = oszperc + futperc + focperc +brinperc +hegkcal+loperc+turperc+kajperc+edperc+pingperc+kutyperc
+            (oszkcal / 2000)*100
+            */
+
+            document.getElementById('arány').value = szazalek
+           document.getElementById('öszperc').value = oszperc
+           document.getElementById('öszkcal').value = oszkcal
+           
+           
+            
+            
+        }
+
+
+    </script>
+</body>
+</html>
