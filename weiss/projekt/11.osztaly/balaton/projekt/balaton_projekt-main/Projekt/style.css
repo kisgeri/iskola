@@ -1,0 +1,165 @@
+* {
+    background-color: #dbdbdb;
+}
+
+#fo_box {
+    width: 1500px;
+    margin: auto;
+
+}
+
+.fejlec {
+    background-color: #333;
+    border: 1px solid #1b1725;
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.terkep {
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    width: 20%;
+}
+
+.terkep a {
+    background-color: #534B62;
+    border: 3px solid black;
+    float: center;
+    color: #e6eaf3;
+    text-align: center;
+    padding: 20px 50px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.terkep a:hover {
+    background-color: #d0bdf4;
+    color: #1b1725;
+}
+
+
+
+#lablec {
+    border: 9px solid black;
+    background-color: #1b1725;
+    margin-top: 30%;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 10PX;
+}
+
+.keszit_p {
+    background-color: #1b1725;
+    margin-top: auto;
+    color: white;
+    text-align: left;
+}
+
+.link {
+    background-color: #1b1725;
+    color: wheat;
+    text-align: center;
+    
+}
+
+
+#felso_sor {
+    width: 80%;
+    margin: auto;
+
+}
+
+.boxok1 {
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px black;
+    padding: 10px;
+    width: 20%;
+    background-color: #333;
+    margin-left: 25px;
+    float: left;
+
+}
+
+.boxok1 h2, li, ul, a, p{
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+
+.boxok1 img {
+    width: 90%;
+    margin: auto;
+    margin-left: 10px;
+    border: 3px solid #1b1725;
+    
+}
+
+.boxok1 p {
+    font-size: 20px; 
+    
+}
+
+#also_sor {
+    width: 80%;
+    margin: auto;
+}
+
+.boxok2 {
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px black;
+    padding: 10px;
+    width: 20%;
+    background-color: #333;
+    margin: 0 auto;
+    margin-left: 25px;
+    float: left;
+}
+
+.boxok2 h2 {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.boxok2 img {
+    width: 90%;
+    margin: auto;
+    margin-left: 10px;
+    border: 3px solid #1b1725;
+    
+}
+
+.boxok2 p {
+    font-size: 20px; 
+    
+}
+
+
+
+a {
+    text-decoration: none;
+    color: rgb(90, 93, 253);
+    
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+
+

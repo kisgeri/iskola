@@ -1,0 +1,62 @@
+projekt vezető: Kis Gergely
+technikáért felelős: Kotehncz Martin
+prezentációért felelős: Lenhardt Károly
+
+Balatoni Projekt
+
+Martin létrehozta a github repositoryt, hozzá adta Károlyt illetve Gergelyt.
+
+
+Terv:
+A projekt megvalósítását PowerPointban tervezzük.
+Egy prezentációt tervezünk készíteni, amelyben bemutatjuk a Balaton körüli érdekességeket. 
+
+
+Cél: A terméket határidőn belül elkészíteni, élvezhető, letisztult prezentációt készíteni illetve azt elfogadható módon előadni.
+
+
+Feladatok:
+
+	Kothencz Martin: Készíti a prezentációt
+	
+	Kis Gergely: Felügyeli a munkát, információt/anyagot gyűjt, segít az esetleges elakadásokban
+
+	Lenhardt Károly: A prezentáció elkészítésében segít és prezentálja a kész terméket, dokumentációt ír 
+	információt/anyagot gyűjt, segít az esetleges elakadásokban
+
+
+Nehézségek: 
+
+	- Az animációk kiválasztása, rendezése
+	- A dizájn egyeztetése
+	- Az animációk időzítése, megvalósítása
+	- Átérezni azt, hogy mi lesz élvezhető a közönségünknek, ezt megvalósítani
+	- A diák közti váltás beállítása
+	- A térképen mozgó autó helyes beállítása
+
+
+Mérföldkövek: 
+	
+	- Az animációk pontos beállításai
+	- A dizájn jelenlegi kinézete
+	- A városok kiválasztása
+
+
+2023.09.13-án este összeült a csapat, és megkezdődött az ötletelés. Arra jutottunk, hogy 3-3 északi illetve déli parti várost fogunk 
+bemutatni, melyből négyhez Károly illetőleg kettőhöz Gergely keresett információt, illetve ami fontos, hogy PowerPointot fogunk használni. 
+Az első felmerülő nehézségünk a PowerPointon belül az animáció illetve a prezentáció kinézete volt, de viszonylag egyszerűen 
+megtudtuk oldani. Megkezdődött a közös munka, mindenki nekilátott a saját feladatának, és közben segítette a másikat. A munka végére eljutottunk egy 
+kezdetleges prezentációig, és volt egy képünk arról, hogy hogyan és mit is 
+szeretnénk fejleszteni majd a jövőben.
+
+
+
+2023.09.16-án ismét dolgozni kezdtünk. Fejlesztettük a prezentációt, egyeztettük a végleges animációkat illetve a végleges dizájnt. 
+Mindenki igyekezett teret adni a másiknak, mindenki ötleteit próbáltuk megvalósítani, és közösen haladtunk előre, 
+míg el nem jutottunk addig, hogy a negyede kész legyen a vázlatunknak.
+
+
+
+2023.09.18-án ültünk össze ismét. Kezdett kirajzolódni a jelenlegi látványterve a prezentációnknak. Igyekeztünk minél jobbra és 
+simábbra formázni a prezentáció jelenlegi (tervszerű) alakját. Miután mindenki elégedett volt a projekt jelenlegi formájával, és késznek tekintettük a feladatot
+Gergely leadta a feladatot a Classroomban a határidő vége előtti estén.
