@@ -1,0 +1,83 @@
+1;#adatbázis létrehozása és karakter készlet meg a használandó abc sorrend be állítása (egy parancsba)
+CREATE DATABASE magyar_kgj          			#<magyar_kgj az adatbázis neve>
+	DEFAULT CHARACTER SET = utf8			#[DEFAULT OPCIONÁLIS]	
+	DEFAULT COLLATE utf8_hungarian_ci;
+
+2;#használja az adatbázist
+USE magyar ;
+
+3;#megmutatja a táblákat
+SHOW TABLES;					
+
+4;#megmutatja a karakter készletett, #megmutatja milyen abc alapján rendez
+SHOW VARIABLES LIKE "char%database";		
+SHOW VARIABLES LIKE "coll%database";		
+
+5;#megváltoztatja a már létező adatbézis rendezését
+ALTER DATABASE magyar_kgj
+	DEFAULT COLLATE = latin2_hungarian_ci; 
+
+6;#törli az adatbázist mindenel ami benne van
+DROP DATABASE magyar_kgj;
+
+7;#buli adatbázis
+	1,#utf8,magyar rendezés,
+	CREATE DATABASE buli_kgj          			
+		DEFAULT CHARACTER SET = uft8			
+		DEFAULT COLLATE utf8_hungarian_ci;
+
+	2,#elenörzés
+	SHOW VARIABLES LIKE "char%database";
+	SHOW VARIABLES LIKE "coll%database";
+
+	3,#tábla létrehozása
+	CREATE TABLE résztvevők
+	(
+    		id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, #autómatikus növelés
+    		név VARCHAR(20),
+    		étel VARCHAR(30),
+    		jön_e CHAR(1),
+    		dátuma DATE
+	);
+	4,#kiírja a tábla szerkezetétt
+	DESCRIBE résztvevők;
+	
+	5,tábla belséjének megnézése;
+	SELECT * FROM résztvevők;
+
+	
+	6,#hozá adunk elemet a táblához #minden értéket sorba adunk meg
+	INSERT INTO résztvevők VALUES 
+		(NULL,'Béla','husi','i',null); #ebbe az esetbe az első null az auto miat, és az utolsó mert nem rudjuk
+
+	INSERT INTO résztvevők (név,étel,jön_e,dátuma)
+		VALUES('Patrik','sonka','i',date('2023-11-06'));
+	
+	7,frissités
+	UPDATE résztvevők
+		SET dátuma='2023-11-06'
+    		WHERE dátuma='2023-11-22';
+	
+
+	8,#törlések
+	TRUNCATE TABLE;
+
+	DELETE FROM résztvevők
+	WHERE név='Sanyi';
+
+	DELETE FROM résztvevők
+	WHERE jön_e='n';
+
+	DELETE FROM résztvevők
+	WHERE dátuma is null;
+
+	DELETE FROM résztvevők
+	WHERE id BETWEEN ;
+
+	DELETE FROM résztvevők
+	WHERE id BETWEEN 7 AND 10;
+
+	DROP TABLE résztvevők;
+
+	
+	

@@ -1,0 +1,169 @@
+1.ADATBÁZIS, ÉS TÁBLÁK LÉTREHOZÁSA
+
+a.	
+	CREATE DATABASE autokereskedes
+		DEFAULT CHARACTER SET = utf8
+    		DEFAULT COLLATE = utf8_hungarian_ci;
+
+b.
+	CREATE TABLE Auto 
+	(
+		Id int NOT NULL PRIMARY KEY,
+     		Rendszam CHAR(7) NOT NULL,
+     		Tipus VARCHAR(15),
+     		Szin VARCHAR(6),
+     		Gyartasiev int,
+    		Ertek int
+	);
+ellenörzés: DESCRIBE auto
+
+
+	CREATE TABLE Tulajdonos
+	(
+ 		TulajId INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    		Autoazon INT,
+    		Nev VARCHAR(30),
+    		Született DATE,
+    		Neme CHAR(1),
+    		Elsotulaj BOOLEAN,
+    		Varos VARCHAR(15)
+	);
+ellenörzés: DESCRIBE tulajdonos
+
+2.ADATOK BEIMPORTÁLÁSA
+import
+fromatum spec csak legfelső ; és 4. auto
+
+3.LEKÉRDEZÉSEK
+
+a.Adjuk meg a Skoda típusú autók rendszámát és gyártási évét!
+
+	SELECT Rendszam,Gyartasiev
+		FROM auto
+		WHERE Tipus = "Skoda"
+
+b.Írassuk ki a rendszámokat, s mellé a tulajdonos nevét!
+
+	SELECT Rendszam,Nev
+	FROM auto INNER JOIN tulajdonos ON Id=Autoazon;
+
+c.Jelenítsük meg valamennyi márkát, de csak egyszer
+
+	SELECT DISTINCT Tipus
+	FROM auto;
+
+d.Hány piros Opel van? Az oszlop neve legyen: Piros Opelek száma
+
+	SELECT COUNT(*) as PirosOpelekszáma
+	FROM auto
+    	WHERE Tipus = "Opel" AND Szin = "Piros";
+	
+e.Mennyi a piros Opelek átlagértéke? Az oszlop neve legyen: Piros Opelek átlagértéke
+
+	SELECT AVG(Ertek) as PirosOpelekÁtlagértéke
+	FROM auto
+    	WHERE Tipus = "Opel" AND Szin = "Piros";
+f.Mennyi autótulajdonos van városonként? A lista a legtöbb tulajdonosú várossal kezdődjön és legalul
+legyen a legkevesebb értékű város.
+
+	SELECT Varos,COUNT(*) as Tulajdonosszam
+	FROM tulajdonos
+    	GROUP BY Varos
+    	ORDER BY Tulajdonosszam DESC;
+
+g.Adjuk meg a budapesti tulajdonosú autók rendszámát, típusát, tulajdonosának nevét.
+
+	SELECT Rendszam,Tipus,Nev
+	FROM auto INNER JOIN tulajdonos ON Id = Autoazon
+    	WHERE Varos = "Budapest";
+
+h.Adjuk meg a legújabb és legdrágább autó rendszámát, típusát, tulajdonosának nevét és értékét.
+
+	SELECT Rendszam,Tipus,Nev,Ertek
+	FROM auto INNER JOIN tulajdonos on Id=Autoazon
+    	WHERE Ertek = (SELECT MAX(Ertek) FROM auto) AND Gyartasiev = (SELECT MAX(Gyartasiev)FROM auto);
+
+	2.megoldás:
+
+	SELECT Rendszam,Tipus,Nev,Ertek
+	FROM auto INNER JOIN tulajdonos on Id=Autoazon
+	GROUP BY Gyartasiev DESC, Ertek DESC
+    	LIMIT 1;
+
+i.Keressük azon autók tulajdonosát, melyek rendszámában van „A” betű (írassuk ki a rendszámot és a
+tulajdonos nevét is.)
+
+	SELECT Rendszam,Nev
+	FROM auto INNER JOIN tulajdonos on Id=Autoazon
+    	WHERE Rendszam LIKE '%A%';
+
+j.Keressük azon autók tulajdonosát, melyek rendszámában a második betű „A” (írassuk ki a rendszámot
+és a tulajdonos nevét is.)
+
+	SELECT Rendszam,Nev
+	FROM auto INNER JOIN tulajdonos on Id=Autoazon
+    	WHERE Rendszam LIKE '_A%';
+
+k.Keressük azon autók tulajdonosát, melyek rendszámában nincs „A” betű (írassuk ki a rendszámot és a
+tulajdonos nevét is.)
+
+	SELECT Rendszam,Nev
+	FROM auto INNER JOIN tulajdonos on Id=Autoazon
+    	WHERE Rendszam NOT LIKE '%A%';
+
+l.Mit tudunk a LOL-003-as rendszámú autóról?
+
+	SELECT *
+	FROM auto INNER JOIN tulajdonos on Id=Autoazon
+    	WHERE Rendszam = 'LOL-003';
+
+m.Melyek a 10 évnél nem régebbi autók? (Típus, tulajdonos, rendszám). A lista az autó típusa szerint
+növekvő, azon belül pedig tulajdonos neve szerinti növekvő sorrendbe legyen rendezve.
+
+	SELECT Tipus,Nev,Rendszam
+	FROM auto INNER JOIN tulajdonos ON Id = Autoazon
+    	WHERE 2024-Gyartasiev <= 10
+	ORDER BY Tipus, Nev;
+
+n.Számoljuk meg, hány férfi és hány nő autótulajdonos van. A nők legyenek elöl.
+
+	SELECT Neme, COUNT(*) as Autotulajdonosok
+	FROM tulajdonos
+    	GROUP BY Neme
+    	ORDER BY Neme DESC;
+
+o.Írassuk ki a városokat (és az ott lakó tulajdonosok számát), melyben legalább két autótulajdonos lakik.
+Nevezzük át az oszlopot Fő-re.
+
+	SELECT Varos,COUNT(*) as Fő
+	FROM tulajdonos
+    	GROUP BY Varos
+    	HAVING Fő >= 2;
+    
+p.Írassuk ki a Károlyokat és autójuk típusát.
+
+	SELECT Tipus,Nev
+	FROM auto INNER JOIN tulajdonos on Id=Autoazon
+	WHERE Nev LIKE "Károly"
+    ;
+    
+q.Hány autó van első tulajdonosnál? Nevezzük át az oszlopot
+
+	SElECT COUNT(*) AS ELSŐTULAJ
+	FROM tulajdonos
+	WHERE Elsotulaj = 1
+
+r.Hány budapesti első tulajdonos van? Az oszlopot is nevezzük át.
+
+	SElECT COUNT(*) AS "ELSŐTULAJ-bp"
+	FROM tulajdonos
+	WHERE Elsotulaj = 1 AND Varos = "Budapest";
+	
+s.Készítsük el az autók szín szerinti eloszlását (milyen színű autóból hány db van).
+
+	SElECT Szin,COUNT(*) AS db
+		FROM auto
+		Group by Szin;
+
+
+

@@ -1,0 +1,12 @@
+Feladat:
+Állítson be biztonságos távoli hozzáférést (SSH) az Romeo routerhez!
+
+1. A Romeo -n konfigurálja a domain nevet romeo.hu néven!
+
+2. Generáljon RSA kulcsokat 1024 kulcshosszúsággal!
+
+3. Vegyen fel egy admin felhasználót a Romeo forgalomirányítón admin jelszóval!
+Érje el, hogy a felhasználó SSH kapcsolaton keresztül tudjon csatlakozni a Romeo forgalomirányítóhoz!
+Az SSH hozzáférést az összes virtuális vonalra állítsa be!
+
+4. Ellenőrizze az SSH távoli hozzáférést! A PCA-n parancssorból kapcsolódjon SSH használatával a Romeo routerhez!
