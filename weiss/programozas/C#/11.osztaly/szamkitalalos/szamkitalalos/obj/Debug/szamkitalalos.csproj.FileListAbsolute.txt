@@ -1,0 +1,6 @@
+D:\iskola\programozas\c#\szamkitalalos\szamkitalalos\bin\Debug\szamkitalalos.exe.config
+D:\iskola\programozas\c#\szamkitalalos\szamkitalalos\bin\Debug\szamkitalalos.exe
+D:\iskola\programozas\c#\szamkitalalos\szamkitalalos\bin\Debug\szamkitalalos.pdb
+D:\iskola\programozas\c#\szamkitalalos\szamkitalalos\obj\Debug\szamkitalalos.csprojAssemblyReference.cache
+D:\iskola\programozas\c#\szamkitalalos\szamkitalalos\obj\Debug\szamkitalalos.exe
+D:\iskola\programozas\c#\szamkitalalos\szamkitalalos\obj\Debug\szamkitalalos.pdb

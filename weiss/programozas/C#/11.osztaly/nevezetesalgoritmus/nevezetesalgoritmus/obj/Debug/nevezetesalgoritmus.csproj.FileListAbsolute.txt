@@ -1,0 +1,7 @@
+D:\iskola\programozas\c#\nevezetesalgoritmus\nevezetesalgoritmus\bin\Debug\nevezetesalgoritmus.exe.config
+D:\iskola\programozas\c#\nevezetesalgoritmus\nevezetesalgoritmus\bin\Debug\nevezetesalgoritmus.exe
+D:\iskola\programozas\c#\nevezetesalgoritmus\nevezetesalgoritmus\bin\Debug\nevezetesalgoritmus.pdb
+D:\iskola\programozas\c#\nevezetesalgoritmus\nevezetesalgoritmus\obj\Debug\nevezetesalgoritmus.csproj.AssemblyReference.cache
+D:\iskola\programozas\c#\nevezetesalgoritmus\nevezetesalgoritmus\obj\Debug\nevezetesalgoritmus.csproj.CoreCompileInputs.cache
+D:\iskola\programozas\c#\nevezetesalgoritmus\nevezetesalgoritmus\obj\Debug\nevezetesalgoritmus.exe
+D:\iskola\programozas\c#\nevezetesalgoritmus\nevezetesalgoritmus\obj\Debug\nevezetesalgoritmus.pdb

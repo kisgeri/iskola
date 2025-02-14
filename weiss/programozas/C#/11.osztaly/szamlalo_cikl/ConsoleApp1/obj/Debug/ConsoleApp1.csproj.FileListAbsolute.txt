@@ -1,0 +1,7 @@
+D:\iskola\programozas\c#\szamlalo_cikl\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\iskola\programozas\c#\szamlalo_cikl\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\iskola\programozas\c#\szamlalo_cikl\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\iskola\programozas\c#\szamlalo_cikl\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+D:\iskola\programozas\c#\szamlalo_cikl\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\iskola\programozas\c#\szamlalo_cikl\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\iskola\programozas\c#\szamlalo_cikl\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
