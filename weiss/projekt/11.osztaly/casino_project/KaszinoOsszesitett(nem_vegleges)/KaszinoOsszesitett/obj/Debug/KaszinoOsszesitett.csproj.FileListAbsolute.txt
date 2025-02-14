@@ -1,0 +1,10 @@
+Z:\-=Programozas=-\C#\KaszinoOsszesitett\KaszinoOsszesitett\bin\Debug\KaszinoOsszesitett.exe.config
+Z:\-=Programozas=-\C#\KaszinoOsszesitett\KaszinoOsszesitett\bin\Debug\KaszinoOsszesitett.exe
+Z:\-=Programozas=-\C#\KaszinoOsszesitett\KaszinoOsszesitett\bin\Debug\KaszinoOsszesitett.pdb
+Z:\-=Programozas=-\C#\KaszinoOsszesitett\KaszinoOsszesitett\obj\Debug\KaszinoOsszesitett.Properties.Resources.resources
+Z:\-=Programozas=-\C#\KaszinoOsszesitett\KaszinoOsszesitett\obj\Debug\KaszinoOsszesitett.valasztomenu.resources
+Z:\-=Programozas=-\C#\KaszinoOsszesitett\KaszinoOsszesitett\obj\Debug\KaszinoOsszesitett.csproj.GenerateResource.cache
+Z:\-=Programozas=-\C#\KaszinoOsszesitett\KaszinoOsszesitett\obj\Debug\KaszinoOsszesitett.exe
+Z:\-=Programozas=-\C#\KaszinoOsszesitett\KaszinoOsszesitett\obj\Debug\KaszinoOsszesitett.pdb
+Z:\-=Programozas=-\C#\KaszinoOsszesitett\KaszinoOsszesitett\obj\Debug\KaszinoOsszesitett.csprojAssemblyReference.cache
+Z:\-=Programozas=-\C#\KaszinoOsszesitett\KaszinoOsszesitett\obj\Debug\KaszinoOsszesitett.blackjack.resources
