@@ -1,0 +1,6 @@
+D:\iskola\programozas\c#\12.osztaly\shellsor\shellsor\bin\Debug\shellsor.exe.config
+D:\iskola\programozas\c#\12.osztaly\shellsor\shellsor\bin\Debug\shellsor.exe
+D:\iskola\programozas\c#\12.osztaly\shellsor\shellsor\bin\Debug\shellsor.pdb
+D:\iskola\programozas\c#\12.osztaly\shellsor\shellsor\obj\Debug\shellsor.csprojAssemblyReference.cache
+D:\iskola\programozas\c#\12.osztaly\shellsor\shellsor\obj\Debug\shellsor.exe
+D:\iskola\programozas\c#\12.osztaly\shellsor\shellsor\obj\Debug\shellsor.pdb

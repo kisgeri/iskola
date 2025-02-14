@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shellsor", "shellsor\shellsor.csproj", "{99B7AA36-3614-4216-B73D-1FF95821AB6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99B7AA36-3614-4216-B73D-1FF95821AB6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99B7AA36-3614-4216-B73D-1FF95821AB6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99B7AA36-3614-4216-B73D-1FF95821AB6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99B7AA36-3614-4216-B73D-1FF95821AB6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64A1364D-BA20-4DAA-A447-0E8877CD71D6}
+	EndGlobalSection
+EndGlobal

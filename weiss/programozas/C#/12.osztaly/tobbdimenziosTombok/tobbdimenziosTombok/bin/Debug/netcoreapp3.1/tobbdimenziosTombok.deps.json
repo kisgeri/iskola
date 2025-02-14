@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "tobbdimenziosTombok/1.0.0": {
+        "runtime": {
+          "tobbdimenziosTombok.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "tobbdimenziosTombok/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
