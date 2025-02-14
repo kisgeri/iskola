@@ -1,0 +1,7 @@
+D:\iskola\programozas\c#\talaldkiaszot\talaldkiaszot\bin\Debug\talaldkiaszot.exe.config
+D:\iskola\programozas\c#\talaldkiaszot\talaldkiaszot\bin\Debug\talaldkiaszot.exe
+D:\iskola\programozas\c#\talaldkiaszot\talaldkiaszot\bin\Debug\talaldkiaszot.pdb
+D:\iskola\programozas\c#\talaldkiaszot\talaldkiaszot\obj\Debug\talaldkiaszot.csproj.AssemblyReference.cache
+D:\iskola\programozas\c#\talaldkiaszot\talaldkiaszot\obj\Debug\talaldkiaszot.csproj.CoreCompileInputs.cache
+D:\iskola\programozas\c#\talaldkiaszot\talaldkiaszot\obj\Debug\talaldkiaszot.exe
+D:\iskola\programozas\c#\talaldkiaszot\talaldkiaszot\obj\Debug\talaldkiaszot.pdb

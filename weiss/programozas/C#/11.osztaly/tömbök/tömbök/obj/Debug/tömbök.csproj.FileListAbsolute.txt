@@ -1,0 +1,7 @@
+D:\iskola\programozas\c#\tömbök\tömbök\bin\Debug\tömbök.exe.config
+D:\iskola\programozas\c#\tömbök\tömbök\bin\Debug\tömbök.exe
+D:\iskola\programozas\c#\tömbök\tömbök\bin\Debug\tömbök.pdb
+D:\iskola\programozas\c#\tömbök\tömbök\obj\Debug\tömbök.csproj.AssemblyReference.cache
+D:\iskola\programozas\c#\tömbök\tömbök\obj\Debug\tömbök.csproj.CoreCompileInputs.cache
+D:\iskola\programozas\c#\tömbök\tömbök\obj\Debug\tömbök.exe
+D:\iskola\programozas\c#\tömbök\tömbök\obj\Debug\tömbök.pdb
