@@ -1,0 +1,73 @@
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CALENDAR</title>
+  <link rel="stylesheet" href="naptar.css">
+  <script src="naptar.js" defer></script>
+</head>
+
+<body>
+
+  <div class="nav">
+    <div class="flexrow-container_left">
+      <div ><a href="../php/logout.php" ><img src="../kepek/logout_ikon.png" class="user" alt="user"></a></div><!--logout-->
+      <div ><a href="../index.php" ><img src="../kepek/icon _home_.png" class="home" alt="home"></a></div>
+      <div ><a href="../idojaras/idojaras.html" ><img src="../kepek/icon _cloud_.png" class="home" alt="weather"></a></div>
+      <div ><a href="../naptar/naptar.html" ><img src="../kepek/icon _calendar_.png" class="home" alt="calendar"></a></div>
+      <div ><a href="../to-do/to-do.html" ><img src="../kepek/icon _list_.png" class="home" alt="to-do"></a></div>
+
+        
+    </div>
+
+    
+
+    <div class="flexrow-container">
+      <input type="checkbox" class="theme-checkbox" id="themeSwitch" onclick="toggleColor()">
+  </div>
+
+  <h2><span id="time"></span></h2>
+
+
+    
+  </div>
+
+  <div class="contianer">
+    <div class="calendar">
+      <div class="calendar-header">
+        <span class="month-picker" id="month-picker"> May </span>
+        <div class="year-picker" id="year-picker">
+          <span class="year-change" id="pre-year">
+            <pre><</pre>
+          </span>
+          <span id="year">2020 </span>
+          <span class="year-change" id="next-year">
+            <pre>></pre>
+          </span>
+        </div>
+      </div>
+
+      <div class="calendar-body">
+        <div class="calendar-week-days">
+          <div>Vas</div>
+          <div>Hétfő</div>
+          <div>Kedd</div>
+          <div>Szerda</div>
+          <div>Csüt</div>
+          <div>Pént</div>
+          <div>Szomb</div>
+        </div>
+        <div class="calendar-days">
+        </div>
+      </div>
+      <div class="calendar-footer">
+      </div>
+
+      <div class="month-list"></div>
+    </div>
+  </div>
+</body>
+
+</html>

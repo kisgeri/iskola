@@ -1,0 +1,100 @@
+* {
+    background-color: grey;
+}
+
+#fo_box {
+    width: 1300px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    background-color: #333;
+    color: white;
+}
+
+.honap {
+    font-size: 40px;
+    background-color: #333;
+    color: white;
+    width: 20%;
+}
+
+.ido {
+    background-color: #333;
+    color: white;
+    font-size: 40px;
+    width: 20%;
+    float: right;
+}
+
+#time {
+    background-color: #333;
+    font-size: 40px;
+    width: 20%;
+}
+
+#naptar_hat {
+    background-color: #333;
+    border: 1px solid #1b1725;
+    border-radius: 10px;
+    padding: 70px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+
+}
+
+table {
+    
+    background-color: #333;
+    margin: auto;
+    margin-top: 80px;
+    width: 800px;
+}
+
+th {
+    font-size: 25px;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.847);
+    background-color: #333;
+}
+
+.fejlec {
+    box-shadow: 5px 5px 10px black;
+}
+
+td {
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px black;
+}
+
+.dif {
+    color: rgb(78, 78, 78);
+}
+
+td.active {
+    background-color: rgb(31, 154, 255);
+    
+    color: black;
+    box-shadow: 5px 5px 10px black;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    background-color: rgb(74, 74, 74);
+    padding: 10px;
+}
+
+a:hover {
+    color: white;
+    background-color: rgb(45, 44, 44);
+}
+

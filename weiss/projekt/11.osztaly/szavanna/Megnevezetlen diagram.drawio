@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" modified="2024-02-27T09:33:49.277Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:95.0) Gecko/20100101 Firefox/95.0" etag="dYtwRtyAayplCDq-drrm" version="23.1.1" type="device">
+  <diagram name="1 oldal" id="NFTFDCKWJFSQIqH2Ty46">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nU1uBbbyIqu2jvzk0yak-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="400" y="10" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nU1uBbbyIqu2jvzk0yak-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="nU1uBbbyIqu2jvzk0yak-1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nU1uBbbyIqu2jvzk0yak-3" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="399" y="680" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nU1uBbbyIqu2jvzk0yak-5" value="Map" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="274" y="100" width="280" height="230" as="geometry">
+            <mxRectangle x="410" y="280" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nU1uBbbyIqu2jvzk0yak-7" value="&lt;div&gt;&amp;nbsp;width: int&lt;br&gt;&lt;/div&gt;&lt;div&gt;height: int&lt;br&gt;&lt;/div&gt;&lt;div&gt;map: list&lt;br&gt;&lt;/div&gt;animals: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nU1uBbbyIqu2jvzk0yak-5">
+          <mxGeometry y="26" width="280" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="nU1uBbbyIqu2jvzk0yak-8" value="&lt;div&gt;+ add_point:(x,y,symbol=&#39;E&#39;)&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ delete_point:(x,y)&lt;/div&gt;&lt;div&gt;+ is_symbol_at:(x,y,target_symbol)&lt;/div&gt;&lt;div&gt;+ get_characters_around:(x,y,radius=1)&lt;/div&gt;&lt;div&gt;+ move_point:(oldx,oldy,newx,newy,animal)&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ add_animal:(animal)&lt;/div&gt;&lt;div&gt;+ remove_animal:(animal)&lt;/div&gt;&lt;div&gt;+ display_map:()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nU1uBbbyIqu2jvzk0yak-5">
+          <mxGeometry y="90" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="nU1uBbbyIqu2jvzk0yak-9" value="Animal" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="554" y="100" width="280" height="210" as="geometry">
+            <mxRectangle x="410" y="280" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nU1uBbbyIqu2jvzk0yak-10" value="&lt;div&gt;x,y: position&lt;/div&gt;&lt;div&gt;type: &#39;R&#39; or &#39;N&#39;&lt;/div&gt;&lt;div&gt;ehseg: int&lt;/div&gt;&lt;div&gt;map: list&lt;/div&gt;&lt;div&gt;szules_ota: int&lt;/div&gt;&lt;div&gt;maxelet: int&lt;/div&gt;&lt;div&gt;eletkor: int&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nU1uBbbyIqu2jvzk0yak-9">
+          <mxGeometry y="26" width="280" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="nU1uBbbyIqu2jvzk0yak-11" value="&lt;div&gt;+ evmulas:()&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ meghal:()&lt;/div&gt;&lt;div&gt;+ eves:(status)&lt;/div&gt;&lt;div&gt;+ szaporodasCheck:()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nU1uBbbyIqu2jvzk0yak-9">
+          <mxGeometry y="140" width="280" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#062e3f">
+    <meta name="Description" content="A dynamic and aesthetic To-Do List WebApp.">
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
+    <link rel="stylesheet" href="to-do.css">
+   
+    <title>teendőim</title>
+
+</head>
+
+<body>
+
+    <div class="nav">
+        <div class="flexrow-container_left">
+          <div ><a href="../php/logout.php" ><img src="../kepek/logout_ikon.png" class="user" alt="user"></a></div><!--logout-->
+          <div ><a href="../index.php" ><img src="../kepek/icon _home_.png" class="home" alt="home"></a></div>
+          <div ><a href="../idojaras/idojaras.html" ><img src="../kepek/icon _cloud_.png" class="home" alt="weather"></a></div>
+          <div ><a href="../naptar/naptar.html" ><img src="../kepek/icon _calendar_.png" class="home" alt="calendar"></a></div>
+          <div ><a href="../to-do/to-do.html" ><img src="../kepek/icon _list_.png" class="home" alt="to-do"></a></div>
+    
+            
+        </div>
+    
+        
+    
+        <div class="flexrow-container">
+          <input type="checkbox" class="theme-checkbox" id="themeSwitch" onclick="toggleColor()">
+      </div>
+  
+      <h2><span id="time"></span></h2>
+   
+    
+        
+      </div>
+
+
+    
+    <div id = "header">
+
+
+            <div class="light-theme theme-selector"></div>
+            <div class="darker-theme theme-selector"></div>
+
+        <h1 id="title">Weiss<div id="border"></div></h1>
+    </div>
+
+  <div id="form">
+        <form>
+            <input class="todo-input" type="text" placeholder="Ide tudod írni az elvégezendő feladataid.">
+            <button class="todo-btn" type="submit">Add hozzá</button>
+        </form>
+    </div>
+
+    
+       
+    </div>
+
+  <div id="myUnOrdList">
+        <ul class="todo-list">
+           
+        </ul>
+    </div>
+    <script src="to-do.js" type="text/javascript"> </script>
+</body>
+</html>
