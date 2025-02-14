@@ -1,0 +1,59 @@
+html {background-color:forestgreen;}
+li {
+    float: left;
+}
+
+h1{
+    color: blue;
+    margin-left: 10px;
+}
+
+h2{
+    color: blue;
+    margin-left: 10px;
+}
+
+li{
+    color: gold;
+    margin-left:40px; 
+line-height:40px;
+}
+
+h3{
+    color: blue;
+    margin-left: 10px;
+}
+
+h4{
+    color: brown
+}
+
+ul{
+    margin:0; 
+padding:30px;
+
+    color: gold;
+}
+
+img {
+    width:45%; 
+    height:auto; 
+    border:4px double hotpink; 
+    border-radius:50px; 
+    margin-right:10px; 
+    }
+
+    video {
+        width: 400px;; 
+        max-width:800px; 
+        display:block; 
+        border:8px double darkslategray;
+        border-radius:30px;
+        margin-right: auto;
+        margin-left: auto;
+        }
+
+
+        
+
+

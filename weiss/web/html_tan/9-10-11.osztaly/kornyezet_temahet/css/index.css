@@ -1,0 +1,110 @@
+body {
+    background-image: url('hatter/fold.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: whitesmoke;
+}
+.kezdet{
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(25, 44, 151);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(2, 176, 219);
+  }
+  ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .active {
+    background-color: #0066ff;
+  }
+  img {
+    opacity: 0.5;
+  }
+  
+  img:hover {
+    opacity: 1.0;
+  }
+  .s{
+    position: absolute;
+    top: 650px;
+    right: 50px;
+    width: 700px;
+    height: 300px;
+    background-color: rgb(192, 26, 26);
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.356);
+    opacity: 0.96;
+    text-align: right;
+    color: black;
+    padding: auto;
+  }
+  .o{
+    position: absolute;
+    top: 1025px;
+    left: 50px;
+    width: 700px;
+    height: 300px;
+    background-color: rgb(192, 26, 26);
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.356);
+    opacity: 0.96;
+    text-align: left;
+    color: black;
+  }
+  .q{
+    position: absolute;
+    left: 50px;
+    width: 700px;
+    height: 300px;
+    background-color: rgb(192, 26, 26);
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.356);
+    opacity: 0.96;
+    text-align: left;
+    color: black;
+    list-style-type: none;
+  }
+  .p{
+    position: absolute;
+    top: 1400px;
+    right: 50px;
+    width: 700px;
+    height: 300px;
+    background-color: rgb(192, 26, 26);
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.356);
+    opacity: 0.96;
+    text-align: right;
+    color: black;
+  }
+  .i{
+    position: absolute;
+    top: 1800px;
+    left: 50px;
+    width: 700px;
+    height: 300px;
+    background-color: rgb(48, 190, 35);
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.356);
+    opacity: 0.96;
+    text-align: left;
+    color: black;
+    overflow: hidden;
+  }
