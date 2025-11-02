@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="gomb">A GOMB</button>
+    <div id="eredmeny">
+
+    </div>
+
+    <script>
+        function katt(){
+            document.getElementById("eredmeny").innerText+="onclick";
+        }
+        function fole(){
+            document.getElementById("eredmeny").innerText+="onmouseover";
+        }
+        function le(){
+            document.getElementById("eredmeny").innerText+="onmouseout";
+        }
+        document.getElementById("gomb").addEventListener("click",katt);
+        document.getElementById("gomb").addEventListener("mouseover",fole);
+        document.getElementById("gomb").addEventListener("mouseout",le);
+        
+
+    </script>
+</body>
+</html>
