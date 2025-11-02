@@ -1,0 +1,13 @@
+F:\Ultrabalaton\Ultrabalaton\Ultrabalaton\Ultrabalaton\bin\Debug\Ultrabalaton.exe.config
+F:\Ultrabalaton\Ultrabalaton\Ultrabalaton\Ultrabalaton\bin\Debug\Ultrabalaton.exe
+F:\Ultrabalaton\Ultrabalaton\Ultrabalaton\Ultrabalaton\bin\Debug\Ultrabalaton.pdb
+F:\Ultrabalaton\Ultrabalaton\Ultrabalaton\Ultrabalaton\obj\Debug\Ultrabalaton.csproj.AssemblyReference.cache
+F:\Ultrabalaton\Ultrabalaton\Ultrabalaton\Ultrabalaton\obj\Debug\Ultrabalaton.csproj.CoreCompileInputs.cache
+F:\Ultrabalaton\Ultrabalaton\Ultrabalaton\Ultrabalaton\obj\Debug\Ultrabalaton.exe
+F:\Ultrabalaton\Ultrabalaton\Ultrabalaton\Ultrabalaton\obj\Debug\Ultrabalaton.pdb
+D:\Ultrabalaton\Ultrabalaton\Ultrabalaton\Ultrabalaton\bin\Debug\Ultrabalaton.exe.config
+D:\Ultrabalaton\Ultrabalaton\Ultrabalaton\Ultrabalaton\bin\Debug\Ultrabalaton.exe
+D:\Ultrabalaton\Ultrabalaton\Ultrabalaton\Ultrabalaton\bin\Debug\Ultrabalaton.pdb
+D:\Ultrabalaton\Ultrabalaton\Ultrabalaton\Ultrabalaton\obj\Debug\Ultrabalaton.csprojAssemblyReference.cache
+D:\Ultrabalaton\Ultrabalaton\Ultrabalaton\Ultrabalaton\obj\Debug\Ultrabalaton.exe
+D:\Ultrabalaton\Ultrabalaton\Ultrabalaton\Ultrabalaton\obj\Debug\Ultrabalaton.pdb
