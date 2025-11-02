@@ -1,0 +1,13 @@
+D:\CB-radio\cbradio\cbradio\bin\Debug\cbradio.exe.config
+D:\CB-radio\cbradio\cbradio\bin\Debug\cbradio.exe
+D:\CB-radio\cbradio\cbradio\bin\Debug\cbradio.pdb
+D:\CB-radio\cbradio\cbradio\obj\Debug\cbradio.csprojAssemblyReference.cache
+D:\CB-radio\cbradio\cbradio\obj\Debug\cbradio.exe
+D:\CB-radio\cbradio\cbradio\obj\Debug\cbradio.pdb
+F:\CB-radio\cbradio\cbradio\bin\Debug\cbradio.exe.config
+F:\CB-radio\cbradio\cbradio\bin\Debug\cbradio.exe
+F:\CB-radio\cbradio\cbradio\bin\Debug\cbradio.pdb
+F:\CB-radio\cbradio\cbradio\obj\Debug\cbradio.csproj.AssemblyReference.cache
+F:\CB-radio\cbradio\cbradio\obj\Debug\cbradio.csproj.CoreCompileInputs.cache
+F:\CB-radio\cbradio\cbradio\obj\Debug\cbradio.exe
+F:\CB-radio\cbradio\cbradio\obj\Debug\cbradio.pdb
