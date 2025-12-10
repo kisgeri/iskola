@@ -1,0 +1,9 @@
+D:\iskola\weiss\programozas\c#\13.osztaly\kilepes_feladat\kilepes_feladat\bin\Debug\kilepes_feladat.exe.config
+D:\iskola\weiss\programozas\c#\13.osztaly\kilepes_feladat\kilepes_feladat\bin\Debug\kilepes_feladat.exe
+D:\iskola\weiss\programozas\c#\13.osztaly\kilepes_feladat\kilepes_feladat\bin\Debug\kilepes_feladat.pdb
+D:\iskola\weiss\programozas\c#\13.osztaly\kilepes_feladat\kilepes_feladat\obj\Debug\kilepes_feladat.Form1.resources
+D:\iskola\weiss\programozas\c#\13.osztaly\kilepes_feladat\kilepes_feladat\obj\Debug\kilepes_feladat.Properties.Resources.resources
+D:\iskola\weiss\programozas\c#\13.osztaly\kilepes_feladat\kilepes_feladat\obj\Debug\kilepes_feladat.csproj.GenerateResource.cache
+D:\iskola\weiss\programozas\c#\13.osztaly\kilepes_feladat\kilepes_feladat\obj\Debug\kilepes_feladat.exe
+D:\iskola\weiss\programozas\c#\13.osztaly\kilepes_feladat\kilepes_feladat\obj\Debug\kilepes_feladat.pdb
+D:\iskola\weiss\programozas\c#\13.osztaly\kilepes_feladat\kilepes_feladat\obj\Debug\kilepes_feladat.csprojAssemblyReference.cache

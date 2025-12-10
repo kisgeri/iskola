@@ -1,0 +1,10 @@
+F:\iskola\weiss\programozas\c#\13.osztaly\pizza\pizza\bin\Debug\pizza.exe.config
+F:\iskola\weiss\programozas\c#\13.osztaly\pizza\pizza\bin\Debug\pizza.exe
+F:\iskola\weiss\programozas\c#\13.osztaly\pizza\pizza\bin\Debug\pizza.pdb
+F:\iskola\weiss\programozas\c#\13.osztaly\pizza\pizza\obj\Debug\pizza.csproj.AssemblyReference.cache
+F:\iskola\weiss\programozas\c#\13.osztaly\pizza\pizza\obj\Debug\pizza.Form1.resources
+F:\iskola\weiss\programozas\c#\13.osztaly\pizza\pizza\obj\Debug\pizza.Properties.Resources.resources
+F:\iskola\weiss\programozas\c#\13.osztaly\pizza\pizza\obj\Debug\pizza.csproj.GenerateResource.cache
+F:\iskola\weiss\programozas\c#\13.osztaly\pizza\pizza\obj\Debug\pizza.csproj.CoreCompileInputs.cache
+F:\iskola\weiss\programozas\c#\13.osztaly\pizza\pizza\obj\Debug\pizza.exe
+F:\iskola\weiss\programozas\c#\13.osztaly\pizza\pizza\obj\Debug\pizza.pdb
