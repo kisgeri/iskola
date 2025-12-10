@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Footgolf", "Footgolf\Footgolf.csproj", "{F90569C3-3754-4C0E-89DD-736CB8B241B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F90569C3-3754-4C0E-89DD-736CB8B241B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F90569C3-3754-4C0E-89DD-736CB8B241B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F90569C3-3754-4C0E-89DD-736CB8B241B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F90569C3-3754-4C0E-89DD-736CB8B241B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B90A7CC-D261-4995-BD25-C0616BCFA2D6}
+	EndGlobalSection
+EndGlobal

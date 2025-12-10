@@ -1,0 +1,16 @@
+D:\iskola\weiss\programozas\c#\13.osztaly\Footgolf\Footgolf\Footgolf\bin\Debug\fob2016.txt
+D:\iskola\weiss\programozas\c#\13.osztaly\Footgolf\Footgolf\Footgolf\bin\Debug\Footgolf.exe.config
+D:\iskola\weiss\programozas\c#\13.osztaly\Footgolf\Footgolf\Footgolf\bin\Debug\Footgolf.exe
+D:\iskola\weiss\programozas\c#\13.osztaly\Footgolf\Footgolf\Footgolf\bin\Debug\Footgolf.pdb
+D:\iskola\weiss\programozas\c#\13.osztaly\Footgolf\Footgolf\Footgolf\obj\Debug\Footgolf.csprojAssemblyReference.cache
+D:\iskola\weiss\programozas\c#\13.osztaly\Footgolf\Footgolf\Footgolf\obj\Debug\Footgolf.exe
+D:\iskola\weiss\programozas\c#\13.osztaly\Footgolf\Footgolf\Footgolf\obj\Debug\Footgolf.pdb
+E:\iskola\weiss\programozas\c#\13.osztaly\Footgolf\Footgolf\Footgolf\bin\Debug\fob2016.txt
+E:\iskola\weiss\programozas\c#\13.osztaly\Footgolf\Footgolf\Footgolf\bin\Debug\Footgolf.exe.config
+E:\iskola\weiss\programozas\c#\13.osztaly\Footgolf\Footgolf\Footgolf\bin\Debug\Footgolf.exe
+E:\iskola\weiss\programozas\c#\13.osztaly\Footgolf\Footgolf\Footgolf\bin\Debug\Footgolf.pdb
+E:\iskola\weiss\programozas\c#\13.osztaly\Footgolf\Footgolf\Footgolf\obj\Debug\Footgolf.csproj.AssemblyReference.cache
+E:\iskola\weiss\programozas\c#\13.osztaly\Footgolf\Footgolf\Footgolf\obj\Debug\Footgolf.exe.config
+E:\iskola\weiss\programozas\c#\13.osztaly\Footgolf\Footgolf\Footgolf\obj\Debug\Footgolf.csproj.CoreCompileInputs.cache
+E:\iskola\weiss\programozas\c#\13.osztaly\Footgolf\Footgolf\Footgolf\obj\Debug\Footgolf.exe
+E:\iskola\weiss\programozas\c#\13.osztaly\Footgolf\Footgolf\Footgolf\obj\Debug\Footgolf.pdb
