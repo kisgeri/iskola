@@ -31,6 +31,10 @@ SELECT idopont, SUM(mennyiseg) AS "dkg"
     GROUP BY idopont
 
 D. feladat:
+SELECT AVG(mennyiseg) AS "Átlag"
+	FROM leadasok
+    WHERE idopont > "2016-10-12" || idopont < "2016-10-07"
+
 SELECT SUM(mennyiseg) / COUNT(*) AS "Átlag"
 	FROM leadasok
     WHERE idopont > "2016-10-12" || idopont < "2016-10-07"
@@ -50,10 +54,15 @@ SELECT DISTINCT(osztaly)
 	FROM tanulok
     WHERE osztaly NOT IN("2A")
 
-/*megint másik*/
+/*megint másik ezt nem kéne a != szigorú sql-be nem jó*/
 SELECT DISTINCT(osztaly)
 	FROM tanulok
     WHERE osztaly != "2A"
+
+/*ez a helyes megoldás a != helyet*/
+SELECT DISTINCT(osztaly)
+	FROM tanulok
+    WHERE osztaly <> "2A"
 
 F. feladat
 SELECT DISTINCT(osztaly)
