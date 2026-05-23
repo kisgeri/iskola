@@ -11,3 +11,9 @@ F:\CB-radio\cbradio\cbradio\obj\Debug\cbradio.csproj.AssemblyReference.cache
 F:\CB-radio\cbradio\cbradio\obj\Debug\cbradio.csproj.CoreCompileInputs.cache
 F:\CB-radio\cbradio\cbradio\obj\Debug\cbradio.exe
 F:\CB-radio\cbradio\cbradio\obj\Debug\cbradio.pdb
+D:\iskola\weiss\programozas\c#\13.osztaly\CB-radio\cbradio\cbradio\bin\Debug\cbradio.exe.config
+D:\iskola\weiss\programozas\c#\13.osztaly\CB-radio\cbradio\cbradio\bin\Debug\cbradio.exe
+D:\iskola\weiss\programozas\c#\13.osztaly\CB-radio\cbradio\cbradio\bin\Debug\cbradio.pdb
+D:\iskola\weiss\programozas\c#\13.osztaly\CB-radio\cbradio\cbradio\obj\Debug\cbradio.csprojAssemblyReference.cache
+D:\iskola\weiss\programozas\c#\13.osztaly\CB-radio\cbradio\cbradio\obj\Debug\cbradio.exe
+D:\iskola\weiss\programozas\c#\13.osztaly\CB-radio\cbradio\cbradio\obj\Debug\cbradio.pdb

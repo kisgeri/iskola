@@ -10,7 +10,7 @@ namespace cbradio
     class Program
     {
 
-        struct cbradio
+        struct cbradiostruct
         {
             public int ora;
             public int perc;
@@ -18,7 +18,7 @@ namespace cbradio
             public string nev;
 
         }
-        static List<cbradio> adasok = new List<cbradio>();
+        static List<cbradiostruct> adasok = new List<cbradiostruct>();
 
         static void Main(string[] args)
         {
@@ -27,7 +27,7 @@ namespace cbradio
             feladat4();
             feladat5();
 
-            //feladat7();
+            feladat7();
             feladat8();
             feladat9();
 
@@ -36,7 +36,7 @@ namespace cbradio
 
         private static void feladat2()
         {
-            StreamReader fajlolvaso = new StreamReader(@"F:\CB-radio\cb.txt");
+            StreamReader fajlolvaso = new StreamReader(@"D:\iskola\weiss\programozas\c#\13.osztaly\CB-radio\cb.txt");
             string elsosor = fajlolvaso.ReadLine();
 
             string sor;
@@ -47,7 +47,7 @@ namespace cbradio
                 sor = fajlolvaso.ReadLine();
                 darabok = sor.Split(';');
 
-                cbradio adatok = new cbradio();
+                cbradiostruct adatok = new cbradiostruct();
 
                 adatok.ora = int.Parse(darabok[0]);
                 adatok.perc = int.Parse(darabok[1]);
@@ -130,7 +130,7 @@ namespace cbradio
 
         private static void feladat7()
         {
-            StreamWriter irocsatorna = new StreamWriter(@"F:\CB-radio\cb2.txt");
+            StreamWriter irocsatorna = new StreamWriter(@"D:\iskola\weiss\programozas\c#\13.osztaly\CB-radio\cb2.txt");
             irocsatorna.WriteLine("Kezdes;Nev;Adasdb");
 
             for (int i = 0; i < adasok.Count(); i++)
@@ -143,7 +143,17 @@ namespace cbradio
 
         private static void feladat8()
         {
-            List<string> nevek = new List<string>();
+            //HashSet -et kéne használmi, nem tom mi az
+
+            HashSet<string> nevek = new HashSet<string>();
+            int i = 0;
+            while (i<adasok.Count)
+            {
+                nevek.Add(adasok[i].nev);
+                i++;
+            }
+
+            /*List<string> nevek = new List<string>();
             bool mar_volt;
 
             nevek.Add(adasok[0].nev);
@@ -167,7 +177,7 @@ namespace cbradio
                     nevek.Add(adasok[i].nev);
                 }
             }
-
+            */
             Console.WriteLine("8. feladat: Sofőrok száma: {0} fő",nevek.Count());
         }
 
