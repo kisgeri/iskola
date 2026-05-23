@@ -1,0 +1,9 @@
+D:\iskola\weiss\programozas\c#\13.osztaly\ora\ora\bin\Debug\ora.exe.config
+D:\iskola\weiss\programozas\c#\13.osztaly\ora\ora\bin\Debug\ora.exe
+D:\iskola\weiss\programozas\c#\13.osztaly\ora\ora\bin\Debug\ora.pdb
+D:\iskola\weiss\programozas\c#\13.osztaly\ora\ora\obj\Debug\ora.csprojAssemblyReference.cache
+D:\iskola\weiss\programozas\c#\13.osztaly\ora\ora\obj\Debug\ora.Form1.resources
+D:\iskola\weiss\programozas\c#\13.osztaly\ora\ora\obj\Debug\ora.Properties.Resources.resources
+D:\iskola\weiss\programozas\c#\13.osztaly\ora\ora\obj\Debug\ora.csproj.GenerateResource.cache
+D:\iskola\weiss\programozas\c#\13.osztaly\ora\ora\obj\Debug\ora.exe
+D:\iskola\weiss\programozas\c#\13.osztaly\ora\ora\obj\Debug\ora.pdb
