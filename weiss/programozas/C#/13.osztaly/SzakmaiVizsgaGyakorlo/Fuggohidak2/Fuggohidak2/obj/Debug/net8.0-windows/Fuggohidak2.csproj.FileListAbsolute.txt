@@ -1,0 +1,17 @@
+E:\iskola\weiss\programozas\c#\13.osztaly\SzakmaiVizsgaGyakorlo\Fuggohidak2\Fuggohidak2\bin\Debug\net8.0-windows\Fuggohidak2.exe
+E:\iskola\weiss\programozas\c#\13.osztaly\SzakmaiVizsgaGyakorlo\Fuggohidak2\Fuggohidak2\bin\Debug\net8.0-windows\Fuggohidak2.deps.json
+E:\iskola\weiss\programozas\c#\13.osztaly\SzakmaiVizsgaGyakorlo\Fuggohidak2\Fuggohidak2\bin\Debug\net8.0-windows\Fuggohidak2.runtimeconfig.json
+E:\iskola\weiss\programozas\c#\13.osztaly\SzakmaiVizsgaGyakorlo\Fuggohidak2\Fuggohidak2\bin\Debug\net8.0-windows\Fuggohidak2.dll
+E:\iskola\weiss\programozas\c#\13.osztaly\SzakmaiVizsgaGyakorlo\Fuggohidak2\Fuggohidak2\bin\Debug\net8.0-windows\Fuggohidak2.pdb
+E:\iskola\weiss\programozas\c#\13.osztaly\SzakmaiVizsgaGyakorlo\Fuggohidak2\Fuggohidak2\obj\Debug\net8.0-windows\Fuggohidak2.FuggohidakForm.resources
+E:\iskola\weiss\programozas\c#\13.osztaly\SzakmaiVizsgaGyakorlo\Fuggohidak2\Fuggohidak2\obj\Debug\net8.0-windows\Fuggohidak2.csproj.GenerateResource.cache
+E:\iskola\weiss\programozas\c#\13.osztaly\SzakmaiVizsgaGyakorlo\Fuggohidak2\Fuggohidak2\obj\Debug\net8.0-windows\Fuggohidak2.GeneratedMSBuildEditorConfig.editorconfig
+E:\iskola\weiss\programozas\c#\13.osztaly\SzakmaiVizsgaGyakorlo\Fuggohidak2\Fuggohidak2\obj\Debug\net8.0-windows\Fuggohidak2.AssemblyInfoInputs.cache
+E:\iskola\weiss\programozas\c#\13.osztaly\SzakmaiVizsgaGyakorlo\Fuggohidak2\Fuggohidak2\obj\Debug\net8.0-windows\Fuggohidak2.AssemblyInfo.cs
+E:\iskola\weiss\programozas\c#\13.osztaly\SzakmaiVizsgaGyakorlo\Fuggohidak2\Fuggohidak2\obj\Debug\net8.0-windows\Fuggohidak2.csproj.CoreCompileInputs.cache
+E:\iskola\weiss\programozas\c#\13.osztaly\SzakmaiVizsgaGyakorlo\Fuggohidak2\Fuggohidak2\obj\Debug\net8.0-windows\Fuggohidak2.dll
+E:\iskola\weiss\programozas\c#\13.osztaly\SzakmaiVizsgaGyakorlo\Fuggohidak2\Fuggohidak2\obj\Debug\net8.0-windows\refint\Fuggohidak2.dll
+E:\iskola\weiss\programozas\c#\13.osztaly\SzakmaiVizsgaGyakorlo\Fuggohidak2\Fuggohidak2\obj\Debug\net8.0-windows\Fuggohidak2.pdb
+E:\iskola\weiss\programozas\c#\13.osztaly\SzakmaiVizsgaGyakorlo\Fuggohidak2\Fuggohidak2\obj\Debug\net8.0-windows\Fuggohidak2.genruntimeconfig.cache
+E:\iskola\weiss\programozas\c#\13.osztaly\SzakmaiVizsgaGyakorlo\Fuggohidak2\Fuggohidak2\obj\Debug\net8.0-windows\ref\Fuggohidak2.dll
+E:\iskola\weiss\programozas\c#\13.osztaly\SzakmaiVizsgaGyakorlo\Fuggohidak2\Fuggohidak2\obj\Debug\net8.0-windows\Fuggohidak2.Kereses.resources
