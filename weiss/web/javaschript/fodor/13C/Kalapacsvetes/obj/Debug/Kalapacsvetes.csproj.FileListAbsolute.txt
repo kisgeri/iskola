@@ -1,0 +1,7 @@
+D:\Saját meghajtó\M019\13C\CSharpProjects\Kalapacsvetes\bin\Debug\Kalapacsvetes.exe.config
+D:\Saját meghajtó\M019\13C\CSharpProjects\Kalapacsvetes\bin\Debug\Kalapacsvetes.exe
+D:\Saját meghajtó\M019\13C\CSharpProjects\Kalapacsvetes\bin\Debug\Kalapacsvetes.pdb
+D:\Saját meghajtó\M019\13C\CSharpProjects\Kalapacsvetes\obj\Debug\Kalapacsvetes.csproj.AssemblyReference.cache
+D:\Saját meghajtó\M019\13C\CSharpProjects\Kalapacsvetes\obj\Debug\Kalapacsvetes.csproj.CoreCompileInputs.cache
+D:\Saját meghajtó\M019\13C\CSharpProjects\Kalapacsvetes\obj\Debug\Kalapacsvetes.exe
+D:\Saját meghajtó\M019\13C\CSharpProjects\Kalapacsvetes\obj\Debug\Kalapacsvetes.pdb
