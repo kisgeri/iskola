@@ -1,0 +1,14 @@
+Z:\c#\unitTestFirst\Bank\Bank\bin\Debug\Bank.exe.config
+Z:\c#\unitTestFirst\Bank\Bank\bin\Debug\Bank.exe
+Z:\c#\unitTestFirst\Bank\Bank\bin\Debug\Bank.pdb
+Z:\c#\unitTestFirst\Bank\Bank\obj\Debug\Bank.csprojAssemblyReference.cache
+Z:\c#\unitTestFirst\Bank\Bank\obj\Debug\Bank.exe
+Z:\c#\unitTestFirst\Bank\Bank\obj\Debug\Bank.pdb
+F:\iskola\weiss\programozas\c#\13.osztaly\unitTestFirst\Bank\Bank\bin\Debug\Bank.exe.config
+F:\iskola\weiss\programozas\c#\13.osztaly\unitTestFirst\Bank\Bank\bin\Debug\Bank.exe
+F:\iskola\weiss\programozas\c#\13.osztaly\unitTestFirst\Bank\Bank\bin\Debug\Bank.pdb
+F:\iskola\weiss\programozas\c#\13.osztaly\unitTestFirst\Bank\Bank\obj\Debug\Bank.csproj.AssemblyReference.cache
+F:\iskola\weiss\programozas\c#\13.osztaly\unitTestFirst\Bank\Bank\obj\Debug\Bank.exe.config
+F:\iskola\weiss\programozas\c#\13.osztaly\unitTestFirst\Bank\Bank\obj\Debug\Bank.csproj.CoreCompileInputs.cache
+F:\iskola\weiss\programozas\c#\13.osztaly\unitTestFirst\Bank\Bank\obj\Debug\Bank.exe
+F:\iskola\weiss\programozas\c#\13.osztaly\unitTestFirst\Bank\Bank\obj\Debug\Bank.pdb
