@@ -1,0 +1,14 @@
+E:\iskola\weiss\programozas\c#\13.osztaly\Kalapacsvetes\Pars2012GUIora\obj\Debug\Pars2012GUIora.csprojAssemblyReference.cache
+E:\iskola\weiss\programozas\c#\13.osztaly\Kalapacsvetes\Pars2012GUIora\obj\Debug\Pars2012GUIora.Form1.resources
+E:\iskola\weiss\programozas\c#\13.osztaly\Kalapacsvetes\Pars2012GUIora\obj\Debug\Pars2012GUIora.Properties.Resources.resources
+E:\iskola\weiss\programozas\c#\13.osztaly\Kalapacsvetes\Pars2012GUIora\obj\Debug\Pars2012GUIora.csproj.GenerateResource.cache
+E:\iskola\weiss\programozas\c#\13.osztaly\Kalapacsvetes\Pars2012GUIora\bin\Debug\Selejtezo2012.txt
+E:\iskola\weiss\programozas\c#\13.osztaly\Kalapacsvetes\Pars2012GUIora\bin\Debug\Pars2012GUIora.exe.config
+E:\iskola\weiss\programozas\c#\13.osztaly\Kalapacsvetes\Pars2012GUIora\bin\Debug\Pars2012GUIora.exe
+E:\iskola\weiss\programozas\c#\13.osztaly\Kalapacsvetes\Pars2012GUIora\bin\Debug\Pars2012GUIora.pdb
+E:\iskola\weiss\programozas\c#\13.osztaly\Kalapacsvetes\Pars2012GUIora\bin\Debug\Pars2012ora.exe
+E:\iskola\weiss\programozas\c#\13.osztaly\Kalapacsvetes\Pars2012GUIora\bin\Debug\Pars2012ora.pdb
+E:\iskola\weiss\programozas\c#\13.osztaly\Kalapacsvetes\Pars2012GUIora\bin\Debug\Pars2012ora.exe.config
+E:\iskola\weiss\programozas\c#\13.osztaly\Kalapacsvetes\Pars2012GUIora\obj\Debug\Pars2012GUIora.csproj.CopyComplete
+E:\iskola\weiss\programozas\c#\13.osztaly\Kalapacsvetes\Pars2012GUIora\obj\Debug\Pars2012GUIora.exe
+E:\iskola\weiss\programozas\c#\13.osztaly\Kalapacsvetes\Pars2012GUIora\obj\Debug\Pars2012GUIora.pdb
