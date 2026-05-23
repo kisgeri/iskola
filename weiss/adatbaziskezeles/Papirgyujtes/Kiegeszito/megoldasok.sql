@@ -10,7 +10,7 @@ B. feladat:
     WHERE nev LIKE("A%")
 
 C. feladat:
-SELECT LEFT(nev,1) AS "kezdőbetü", COUNT(*) as "darabszam"
+SELECT LEFT(nev,1) AS "kezdőbetü", COUNT(*) as "darabszam" /*lehet substringel is*/
 	FROM tanulok
     GROUP BY kezdőbetü
     ORDER BY kezdőbetü
