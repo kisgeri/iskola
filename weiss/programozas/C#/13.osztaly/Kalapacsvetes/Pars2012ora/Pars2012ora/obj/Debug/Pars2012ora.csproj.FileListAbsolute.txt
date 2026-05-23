@@ -1,0 +1,7 @@
+E:\iskola\weiss\programozas\c#\13.osztaly\Kalapacsvetes\Pars2012ora\Pars2012ora\bin\Debug\Selejtezo2012.txt
+E:\iskola\weiss\programozas\c#\13.osztaly\Kalapacsvetes\Pars2012ora\Pars2012ora\bin\Debug\Pars2012ora.exe.config
+E:\iskola\weiss\programozas\c#\13.osztaly\Kalapacsvetes\Pars2012ora\Pars2012ora\bin\Debug\Pars2012ora.exe
+E:\iskola\weiss\programozas\c#\13.osztaly\Kalapacsvetes\Pars2012ora\Pars2012ora\bin\Debug\Pars2012ora.pdb
+E:\iskola\weiss\programozas\c#\13.osztaly\Kalapacsvetes\Pars2012ora\Pars2012ora\obj\Debug\Pars2012ora.exe
+E:\iskola\weiss\programozas\c#\13.osztaly\Kalapacsvetes\Pars2012ora\Pars2012ora\obj\Debug\Pars2012ora.pdb
+E:\iskola\weiss\programozas\c#\13.osztaly\Kalapacsvetes\Pars2012ora\Pars2012ora\obj\Debug\Pars2012ora.csprojAssemblyReference.cache
