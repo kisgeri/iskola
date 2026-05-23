@@ -1,0 +1,17 @@
+E:\iskola\weiss\programozas\c#\13.osztaly\SzakmaiVizsgaGyakorlo\Fuggohid\Fuggohid\bin\Debug\net8.0-windows\Fuggohid.exe
+E:\iskola\weiss\programozas\c#\13.osztaly\SzakmaiVizsgaGyakorlo\Fuggohid\Fuggohid\bin\Debug\net8.0-windows\Fuggohid.deps.json
+E:\iskola\weiss\programozas\c#\13.osztaly\SzakmaiVizsgaGyakorlo\Fuggohid\Fuggohid\bin\Debug\net8.0-windows\Fuggohid.runtimeconfig.json
+E:\iskola\weiss\programozas\c#\13.osztaly\SzakmaiVizsgaGyakorlo\Fuggohid\Fuggohid\bin\Debug\net8.0-windows\Fuggohid.dll
+E:\iskola\weiss\programozas\c#\13.osztaly\SzakmaiVizsgaGyakorlo\Fuggohid\Fuggohid\bin\Debug\net8.0-windows\Fuggohid.pdb
+E:\iskola\weiss\programozas\c#\13.osztaly\SzakmaiVizsgaGyakorlo\Fuggohid\Fuggohid\obj\Debug\net8.0-windows\Fuggohid.csproj.GenerateResource.cache
+E:\iskola\weiss\programozas\c#\13.osztaly\SzakmaiVizsgaGyakorlo\Fuggohid\Fuggohid\obj\Debug\net8.0-windows\Fuggohid.GeneratedMSBuildEditorConfig.editorconfig
+E:\iskola\weiss\programozas\c#\13.osztaly\SzakmaiVizsgaGyakorlo\Fuggohid\Fuggohid\obj\Debug\net8.0-windows\Fuggohid.AssemblyInfoInputs.cache
+E:\iskola\weiss\programozas\c#\13.osztaly\SzakmaiVizsgaGyakorlo\Fuggohid\Fuggohid\obj\Debug\net8.0-windows\Fuggohid.AssemblyInfo.cs
+E:\iskola\weiss\programozas\c#\13.osztaly\SzakmaiVizsgaGyakorlo\Fuggohid\Fuggohid\obj\Debug\net8.0-windows\Fuggohid.csproj.CoreCompileInputs.cache
+E:\iskola\weiss\programozas\c#\13.osztaly\SzakmaiVizsgaGyakorlo\Fuggohid\Fuggohid\obj\Debug\net8.0-windows\Fuggohid.dll
+E:\iskola\weiss\programozas\c#\13.osztaly\SzakmaiVizsgaGyakorlo\Fuggohid\Fuggohid\obj\Debug\net8.0-windows\refint\Fuggohid.dll
+E:\iskola\weiss\programozas\c#\13.osztaly\SzakmaiVizsgaGyakorlo\Fuggohid\Fuggohid\obj\Debug\net8.0-windows\Fuggohid.pdb
+E:\iskola\weiss\programozas\c#\13.osztaly\SzakmaiVizsgaGyakorlo\Fuggohid\Fuggohid\obj\Debug\net8.0-windows\Fuggohid.genruntimeconfig.cache
+E:\iskola\weiss\programozas\c#\13.osztaly\SzakmaiVizsgaGyakorlo\Fuggohid\Fuggohid\obj\Debug\net8.0-windows\ref\Fuggohid.dll
+E:\iskola\weiss\programozas\c#\13.osztaly\SzakmaiVizsgaGyakorlo\Fuggohid\Fuggohid\obj\Debug\net8.0-windows\Fuggohid.Függőhidak.resources
+E:\iskola\weiss\programozas\c#\13.osztaly\SzakmaiVizsgaGyakorlo\Fuggohid\Fuggohid\obj\Debug\net8.0-windows\Fuggohid.Keresés.resources
