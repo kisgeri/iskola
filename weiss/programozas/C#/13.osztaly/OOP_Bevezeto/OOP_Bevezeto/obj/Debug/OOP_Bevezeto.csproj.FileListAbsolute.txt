@@ -1,0 +1,6 @@
+E:\iskola\weiss\programozas\c#\13.osztaly\OOP_Bevezeto\OOP_Bevezeto\bin\Debug\OOP_Bevezeto.exe.config
+E:\iskola\weiss\programozas\c#\13.osztaly\OOP_Bevezeto\OOP_Bevezeto\bin\Debug\OOP_Bevezeto.exe
+E:\iskola\weiss\programozas\c#\13.osztaly\OOP_Bevezeto\OOP_Bevezeto\bin\Debug\OOP_Bevezeto.pdb
+E:\iskola\weiss\programozas\c#\13.osztaly\OOP_Bevezeto\OOP_Bevezeto\obj\Debug\OOP_Bevezeto.csprojAssemblyReference.cache
+E:\iskola\weiss\programozas\c#\13.osztaly\OOP_Bevezeto\OOP_Bevezeto\obj\Debug\OOP_Bevezeto.exe
+E:\iskola\weiss\programozas\c#\13.osztaly\OOP_Bevezeto\OOP_Bevezeto\obj\Debug\OOP_Bevezeto.pdb
