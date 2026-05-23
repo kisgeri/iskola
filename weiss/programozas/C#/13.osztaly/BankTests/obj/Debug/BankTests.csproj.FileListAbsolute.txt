@@ -1,0 +1,16 @@
+Z:\c#\unitTestFirst\BankTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+Z:\c#\unitTestFirst\BankTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+Z:\c#\unitTestFirst\BankTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+Z:\c#\unitTestFirst\BankTests\bin\Debug\BankTests.dll
+Z:\c#\unitTestFirst\BankTests\bin\Debug\BankTests.pdb
+Z:\c#\unitTestFirst\BankTests\bin\Debug\Bank.exe
+Z:\c#\unitTestFirst\BankTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+Z:\c#\unitTestFirst\BankTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+Z:\c#\unitTestFirst\BankTests\bin\Debug\Bank.pdb
+Z:\c#\unitTestFirst\BankTests\bin\Debug\Bank.exe.config
+Z:\c#\unitTestFirst\BankTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+Z:\c#\unitTestFirst\BankTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+Z:\c#\unitTestFirst\BankTests\obj\Debug\BankTests.csprojAssemblyReference.cache
+Z:\c#\unitTestFirst\BankTests\obj\Debug\BankTests.csproj.CopyComplete
+Z:\c#\unitTestFirst\BankTests\obj\Debug\BankTests.dll
+Z:\c#\unitTestFirst\BankTests\obj\Debug\BankTests.pdb
