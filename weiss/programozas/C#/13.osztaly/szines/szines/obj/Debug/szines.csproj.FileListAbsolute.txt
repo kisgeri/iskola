@@ -1,0 +1,9 @@
+E:\iskola\weiss\programozas\c#\13.osztaly\szines\szines\obj\Debug\szines.csprojAssemblyReference.cache
+E:\iskola\weiss\programozas\c#\13.osztaly\szines\szines\obj\Debug\szines.Form1.resources
+E:\iskola\weiss\programozas\c#\13.osztaly\szines\szines\obj\Debug\szines.Properties.Resources.resources
+E:\iskola\weiss\programozas\c#\13.osztaly\szines\szines\obj\Debug\szines.csproj.GenerateResource.cache
+E:\iskola\weiss\programozas\c#\13.osztaly\szines\szines\bin\Debug\szines.exe.config
+E:\iskola\weiss\programozas\c#\13.osztaly\szines\szines\bin\Debug\szines.exe
+E:\iskola\weiss\programozas\c#\13.osztaly\szines\szines\bin\Debug\szines.pdb
+E:\iskola\weiss\programozas\c#\13.osztaly\szines\szines\obj\Debug\szines.exe
+E:\iskola\weiss\programozas\c#\13.osztaly\szines\szines\obj\Debug\szines.pdb
