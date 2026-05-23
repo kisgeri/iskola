@@ -1,0 +1,8 @@
+E:\iskola\weiss\programozas\c#\13.osztaly\KarakterDekodolo\KarakterDekodolo\KarakterDekodolo\bin\Debug\KarakterDekodolo.exe.config
+E:\iskola\weiss\programozas\c#\13.osztaly\KarakterDekodolo\KarakterDekodolo\KarakterDekodolo\bin\Debug\KarakterDekodolo.exe
+E:\iskola\weiss\programozas\c#\13.osztaly\KarakterDekodolo\KarakterDekodolo\KarakterDekodolo\bin\Debug\KarakterDekodolo.pdb
+E:\iskola\weiss\programozas\c#\13.osztaly\KarakterDekodolo\KarakterDekodolo\KarakterDekodolo\obj\Debug\KarakterDekodolo.csproj.AssemblyReference.cache
+E:\iskola\weiss\programozas\c#\13.osztaly\KarakterDekodolo\KarakterDekodolo\KarakterDekodolo\obj\Debug\KarakterDekodolo.csproj.CoreCompileInputs.cache
+E:\iskola\weiss\programozas\c#\13.osztaly\KarakterDekodolo\KarakterDekodolo\KarakterDekodolo\obj\Debug\KarakterDekodolo.exe
+E:\iskola\weiss\programozas\c#\13.osztaly\KarakterDekodolo\KarakterDekodolo\KarakterDekodolo\obj\Debug\KarakterDekodolo.pdb
+E:\iskola\weiss\programozas\c#\13.osztaly\KarakterDekodolo\KarakterDekodolo\KarakterDekodolo\obj\Debug\KarakterDekodolo.exe.config

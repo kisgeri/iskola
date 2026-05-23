@@ -29,7 +29,7 @@ namespace kilepes
 
         private void Form1_MouseLeave(object sender, EventArgs e)
         {
-            Text = "ki lép";
+            Text = "kilép";
         }
     }
 }
