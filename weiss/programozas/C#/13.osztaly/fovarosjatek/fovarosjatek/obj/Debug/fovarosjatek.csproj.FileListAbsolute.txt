@@ -1,0 +1,12 @@
+E:\iskola\weiss\programozas\c#\13.osztaly\fovarosjatek\fovarosjatek\bin\Debug\fovarosjatek.exe.config
+E:\iskola\weiss\programozas\c#\13.osztaly\fovarosjatek\fovarosjatek\bin\Debug\fovarosjatek.exe
+E:\iskola\weiss\programozas\c#\13.osztaly\fovarosjatek\fovarosjatek\bin\Debug\fovarosjatek.pdb
+E:\iskola\weiss\programozas\c#\13.osztaly\fovarosjatek\fovarosjatek\obj\Debug\fovarosjatek.csproj.AssemblyReference.cache
+E:\iskola\weiss\programozas\c#\13.osztaly\fovarosjatek\fovarosjatek\obj\Debug\fovarosjatek.fovarosFm.resources
+E:\iskola\weiss\programozas\c#\13.osztaly\fovarosjatek\fovarosjatek\obj\Debug\fovarosjatek.Properties.Resources.resources
+E:\iskola\weiss\programozas\c#\13.osztaly\fovarosjatek\fovarosjatek\obj\Debug\fovarosjatek.csproj.GenerateResource.cache
+E:\iskola\weiss\programozas\c#\13.osztaly\fovarosjatek\fovarosjatek\obj\Debug\fovarosjatek.csproj.CoreCompileInputs.cache
+E:\iskola\weiss\programozas\c#\13.osztaly\fovarosjatek\fovarosjatek\obj\Debug\fovarosjatek.exe
+E:\iskola\weiss\programozas\c#\13.osztaly\fovarosjatek\fovarosjatek\obj\Debug\fovarosjatek.pdb
+E:\iskola\weiss\programozas\c#\13.osztaly\fovarosjatek\fovarosjatek\bin\Debug\fovarosok.txt
+E:\iskola\weiss\programozas\c#\13.osztaly\fovarosjatek\fovarosjatek\obj\Debug\fovarosjatek.exe.config

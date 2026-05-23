@@ -1,0 +1,50 @@
+Magyarország;Budapest
+Ausztria;Bécs
+Szlovákia;Pozsony
+Románia;Bukarest
+Horvátország;Zágráb
+Szlovénia;Ljubljana
+Szerbia;Belgrád
+Németország;Berlin
+Franciaország;Párizs
+Olaszország;Róma
+Spanyolország;Madrid
+Egyesült Királyság;London
+Csehország;Prága
+Lengyelország;Varsó
+Görögország;Athén
+Svédország;Stockholm
+Norvégia;Oslo
+Finnország;Helsinki
+Portugália;Lisszabon
+Svájc;Bern
+Hollandia;Amszterdam
+Belgium;Brüsszel
+Írország;Dublin
+Dánia;Koppenhága
+Izland;Reykjavík
+Oroszország;Moszkva
+Ukrajna;Kijev
+Törökország;Ankara
+Egyesült Államok;Washington
+Kanada;Ottawa
+Mexikó;Mexikóváros
+Brazília;Brazíliaváros
+Argentína;Buenos Aires
+Peru;Lima
+Chile;Santiago
+Kuba;Havanna
+Japán;Tokió
+Kína;Peking
+Dél-Korea;Szöul
+India;Újdelhi
+Thaiföld;Bangkok
+Vietnam;Hanoi
+Indonézia;Jakarta
+Fülöp-szigetek;Manila
+Ausztrália;Canberra
+Új-Zéland;Wellington
+Egyiptom;Kairó
+Dél-afrikai Köztársaság;Pretoria
+Izrael;Jeruzsálem
+Szaúd-Arábia;Rijád
