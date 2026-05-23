@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Táblázat</title>
+    <style>
+        table {
+            border: 1px solid blue;
+            border-collapse: collapse;
+            width: 50%;
+        }
+        th, td {
+            border: 1px solid blue;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Táblázat tömb elemeiből</h2>
+    <table>
+
+    </table>
+    <script>
+        const fejlec = ["ID", "Név", "Email"]
+        const adatok = [
+            {
+                id: "1",
+                name: "Mollywood János",
+                email: "larissa@mollywood.hu"
+            },
+            {
+                id: "2",
+                name: "Mollywood Gergely",
+                email: "gergely@mollywood.hu"
+            },
+            {
+                id: "3",
+                name: "Mollywood Dorina",
+                email: "dorina@mollywood.hu"
+            },
+            {
+                id: "4",
+                name: "Mc Isti",
+                email: "mcisti@mollywood.hu"
+            },
+            {
+                id: "5",
+                name: "Zámbó Jimmy",
+                email: "jimmy@kiraly.hu"
+            }
+        ]
+
+        document.body.onload = function() {
+            addTHs(fejlec)
+            addTR(adatok)
+        }
+
+        function addTR(arr) {
+            const table = document.querySelector("table")
+            for (let i = 0; i < arr.length; i++) {
+                const tr = document.createElement("tr")
+                table.appendChild(tr)
+                addTD(tr, arr[i].id)
+                addTD(tr, arr[i].name)
+                addTD(tr, arr[i].email)                
+            }
+        }
+
+        function addTD(parent, text) {
+            const td = document.createElement("td")
+            td.innerText = text
+            parent.appendChild(td)
+        }
+
+        function addTHs(arr) {
+            const table = document.querySelector("table")
+            const tr = document.createElement("tr")
+            table.appendChild(tr)
+            for (let i = 0; i < arr.length; i++) {
+                const th = document.createElement("th")
+                th.innerText = arr[i]
+                table.appendChild(th)                
+            }
+        }
+
+    </script>
+</body>
+</html>

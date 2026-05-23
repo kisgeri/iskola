@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>bevásárló</h2>
+    <form >
+        <input type="text" name="termek" id="termek" placeholder="larissza, kristály, töltő gáz">
+
+        <input type="button" value="hozzaad" id="hozzaad">
+    </form>
+    <br>
+    <ul>
+
+    </ul>
+    <br>
+    <script>
+        document.getElementById("hozzaad").addEventListener("click", function(event) {
+            event.preventDefault();              
+            hozzaadas();
+
+
+        })
+
+        function hozzaadas() {
+            const ul = document.querySelector("ul");
+            const li = document.createElement("li");
+            const span = document.createElement("span");
+            const buttondel = document.createElement("button");
+
+            ul.appendChild(li)
+            span.innerText = document.getElementById("termek").value;
+            buttondel.innerText = "TÖRLÉS";
+            buttondel.onclick = function() {
+                ul.removeChild(li)
+            }
+            li.appendChild(span)
+            li.appendChild(buttondel)
+        }
+    </script>
+</body>
+</html>

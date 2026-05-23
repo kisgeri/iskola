@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinamikus</title>
+    <style>
+        .teszt {
+            background-color: red;
+            margin: 5px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+    </style>
+</head>
+<body>
+    <form>
+        <label for="nev">Név</label>
+        <input type="text" id="nev">
+        <br><br>
+        <input type="button" id="kuld" value="Küldés">
+        <input type="button" id="add" value="addDiv">
+        <input type="button" id="remove" value="removeDiv">
+        <input type="button" id="removeall" value="removeAllDiv">
+    </form>
+    <br>
+    <div id="kiir"></div>
+    <div id="divlista">
+
+
+    </div>
+
+    <script>
+        document.getElementById("kuld").onclick = Udvozol
+        document.getElementById("add").addEventListener("click", addDiv)
+        document.getElementById("remove").addEventListener("click", removeDiv)
+        document.getElementById("removeall").addEventListener("click", removeAllDiv)
+
+        function Udvozol() {
+            let nev = document.getElementById("nev").value
+            if (nev.length > 0) {
+                document.getElementById("kiir").innerText = "Üdvözöllek " + nev + "!"
+                //document.getElementById("kiir").style.color = "black"
+            } else {
+                document.getElementById("kiir").innerHTML = "<b>Adjál meg egy nevet cseléd!</b>"
+                document.getElementById("kiir").style.color = "red"
+            }
+        }
+
+        function addDiv() {
+            const parent = document.getElementById("divlista") //szülő
+            const tesztdiv = document.createElement("div") //gyerek
+            // tesztdiv.innerText = "Ez egy div"
+            // tesztdiv.style.color = "red"
+            // tesztdiv.style.margin = "5px"
+            tesztdiv.className = "teszt"
+            parent.appendChild(tesztdiv)
+        }
+
+        function removeDiv() {
+            const div = document.querySelector(".teszt")
+            const parent = document.getElementById("divlista")
+            parent.removeChild(div)
+        }
+
+        function removeAllDiv() {
+            const listdiv = document.querySelectorAll(".teszt")
+            for (let i = 0; i < listdiv.length; i++) {
+              removeDiv()                
+            }
+
+        }
+    </script>
+    
+</body>
+</html>

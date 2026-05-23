@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menü generálás</title>
+</head>
+<body>
+    <h2>Dinamikus menü generálás</h2>
+    <div id="menu">
+        <ul>
+            <!-- <li><a href="#" class="active">Home</a></li> -->
+        </ul>
+    </div>
+    <div>
+        <h3>Forrásadat</h3>
+        <pre>
+            menuitems = [
+                {
+                    label : "Kezdőlap",
+                    url : "#kezdolap",
+                    active : true
+                },
+                            {
+                    label : "Termékek",
+                    url : "#termekek",
+                    active : false
+                },
+                            {
+                    label : "Szolgáltatások",
+                    url : "#szolgaltatasok",
+                    active : false
+                },
+                            {
+                    label : "Blog",
+                    url : "#blog",
+                    active : false
+                },
+                                        {
+                    label : "Kapcsolat",
+                    url : "#kapcsolat",
+                    active : false
+                }
+            ]
+        </pre>
+    </div>
+    <script>
+        menuitems = [
+            {
+                label : "Kezdőlap",
+                url : "#kezdolap",
+                active : true
+            },
+                        {
+                label : "Termékek",
+                url : "#termekek",
+                active : false
+            },
+                        {
+                label : "Szolgáltatások",
+                url : "#szolgaltatasok",
+                active : false
+            },
+                        {
+                label : "Blog",
+                url : "#blog",
+                active : false
+            },
+                                    {
+                label : "Kapcsolat",
+                url : "#kapcsolat",
+                active : false
+            }
+        ]
+    // window.onload = function() {
+    //     addMenu(menuitems)
+    // }
+
+    // window.addEventListener("load", function() {
+    //     addMenu(menuitems)
+    // })
+
+    document.addEventListener("DOMContentLoaded", function() {
+    addMenu(menuitems)
+    })
+    
+    function addMenu(arr) {
+        const ul = document.querySelector("ul")
+        for (let i = 0; i < arr.length; i++) {
+           const li = document.createElement("li")
+           const a = document.createElement("a")
+           a.innerText = arr[i].label
+           a.href = arr[i].url
+           li.appendChild(a)
+           ul.appendChild(li)            
+        }
+    }
+    </script>
+</body>
+</html>
