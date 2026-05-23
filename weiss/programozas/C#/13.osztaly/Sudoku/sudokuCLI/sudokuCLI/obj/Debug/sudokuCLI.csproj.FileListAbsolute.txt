@@ -1,0 +1,13 @@
+Z:\doga\sudokuCLI\sudokuCLI\bin\Debug\sudokuCLI.exe.config
+Z:\doga\sudokuCLI\sudokuCLI\bin\Debug\sudokuCLI.exe
+Z:\doga\sudokuCLI\sudokuCLI\bin\Debug\sudokuCLI.pdb
+Z:\doga\sudokuCLI\sudokuCLI\obj\Debug\sudokuCLI.csprojAssemblyReference.cache
+Z:\doga\sudokuCLI\sudokuCLI\obj\Debug\sudokuCLI.exe
+Z:\doga\sudokuCLI\sudokuCLI\obj\Debug\sudokuCLI.pdb
+E:\iskola\weiss\programozas\c#\13.osztaly\Sudoku\sudokuCLI\sudokuCLI\bin\Debug\sudokuCLI.exe.config
+E:\iskola\weiss\programozas\c#\13.osztaly\Sudoku\sudokuCLI\sudokuCLI\bin\Debug\sudokuCLI.exe
+E:\iskola\weiss\programozas\c#\13.osztaly\Sudoku\sudokuCLI\sudokuCLI\bin\Debug\sudokuCLI.pdb
+E:\iskola\weiss\programozas\c#\13.osztaly\Sudoku\sudokuCLI\sudokuCLI\obj\Debug\sudokuCLI.csprojAssemblyReference.cache
+E:\iskola\weiss\programozas\c#\13.osztaly\Sudoku\sudokuCLI\sudokuCLI\obj\Debug\sudokuCLI.exe
+E:\iskola\weiss\programozas\c#\13.osztaly\Sudoku\sudokuCLI\sudokuCLI\obj\Debug\sudokuCLI.pdb
+E:\iskola\weiss\programozas\c#\13.osztaly\Sudoku\sudokuCLI\sudokuCLI\bin\Debug\feladvanyok.txt
