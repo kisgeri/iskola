@@ -1,0 +1,151 @@
+const express= require("express");
+const app = express();
+const port = 3000
+
+app.listen(port, function(){
+    console.log(`server is running on port ${port}`)
+})
+
+*************************************************************
+
+const express = require("express")
+const app = express()
+const port = 3000
+
+app.listen(port, function(){
+    console.log(`server is running on port: ${port}`)
+
+})
+
+app.get("/", function(req,res){
+    res.send("<h1>Hello kristály 67</h1>")
+})
+
+app.get("/weiss", function(req,res){
+    res.send("<h1>Hello Manfréd 67</h1>")
+})
+
+app.use("/home",express.static("public"))
+
+********************************************************************
+
+// Import the HTTP module
+const http = require('http');
+const PORT = 3000;
+// Create a server object
+const server = http.createServer((req, res) => {
+  // Set the response HTTP header with HTTP status and Content type
+  res.writeHead(200, { 'Content-Type': 'text/plain; charset=utf8' });
+
+  // Send the response body as 'Hello, World!'
+  res.end('Hello, ÁrvízniggagépFúró 67');
+});
+
+
+
+// Start the server and listen on the specified port
+server.listen(PORT, 'localhost', () => {
+  console.log(`Server running at http://localhost:${PORT}/`);
+});
+
+******************************************************************************
+
+const { json } = require("body-parser")
+const e = require("express")
+const  express = require("express")
+const app = express()
+const port = 3000
+
+app.listen(port, function(){
+    console.log(`Server is running ${port}`)
+})
+
+app.use(express.json())
+
+app.get("/",function(req,res){
+    res.send("Helló világ")
+})
+
+let users = [
+    {
+        "id": "1",
+        "name":"jimmy",
+        email: "jimmy@kiraly.hu"
+    },
+    {
+        id: "2",
+        name:"brendon",
+        email: "brendon@bajnok.hu"
+    },
+    {
+        id: "3",
+        name:"Molly",
+        email: "molly@larissza.hu"
+    }
+]
+
+app.get("/users",(req,res) => {
+    res.json(users)
+})
+
+app.get("/users/:id",(req,res)=>{
+    const uid = req.params.id
+    const user = users.find((u)=> u.id == uid)
+    if (user) {
+        res.json(user)
+    } else {
+        res.send("<p style = 'color: red'>user not found</p>")
+    }
+
+})
+
+app.post("/users",(req,res)=>{
+    users.push(req.body)
+    res.json(req.body)
+})
+//thunder client post get neg ilyenek, header kikapcs meg body módosítás
+******************************************************************************
+const express = require('express');
+const mysql = require('mysql2');
+
+const app = express();
+app.use(express.json());
+
+// MySQL kapcsolat beállítása
+const db = mysql.createConnection({
+    host: 'localhost',
+    user: 'root',
+    password: 'password',   // írd át a sajátodra
+    database: 'teszt_db'
+});
+
+// Kapcsolódás az adatbázishoz
+db.connect(err => {
+    if (err) {
+        console.error('MySQL kapcsolódási hiba:', err);
+        return;
+    }
+    console.log('Sikeres MySQL kapcsolat');
+});
+
+// Egyszerű GET végpont
+app.get('/', (req, res) => {
+    res.send('Node.js + Express + MySQL szerver működik');
+});
+
+// Példa: adatok lekérése MySQL-ből
+app.get('/users', (req, res) => {
+    db.query('SELECT * FROM users', (err, results) => {
+        if (err) {
+            return res.status(500).json({ error: err });
+        }
+        res.json(results);
+    });
+});
+
+// Szerver indítása
+app.listen(3000, () => {
+    console.log('Szerver fut a 3000-es porton');
+});
+
+//aiszabolcs antigravity
